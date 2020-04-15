@@ -1,0 +1,456 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Excel图表美化-条形图 | keanu</title>
+<meta name="description" content="与其思索人生有何意义，
+不如去做些让人生有意义的事。" />
+<link rel="shortcut icon" href="https://Mrshu1991.github.io/favicon.ico">
+<link rel="stylesheet" href="https://Mrshu1991.github.io/styles/main.css">
+
+<script src="https://Mrshu1991.github.io/media/js/jquery.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/masonry.pkgd.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/aos.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/pace.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/view-image.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/jquery.magnific-popup.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/functions.js"></script>
+    <meta name="referrer" content="never">
+    <meta name="description" content="使用图表将密密麻麻的、枯燥无味的数字变得直观、美观，更易于阅读与理解。
+
+案例：制作4月份招聘目标完成情况的图表，数据如下：
+
+
+
+职位
+目标
+完成
+
+
+
+
+采购专员
+50
+34
+
+
+运营助理
+35
+27
+
+
+营销主管
+25
+18
+
+
+营销..." />
+    <meta name="keywords" content="PPT技巧" />
+    <script src="https://Mrshu1991.github.io/media/js/waterfall.min.js"></script>
+    <script src="https://Mrshu1991.github.io/media/js/prism.min.js"></script>
+  </head>
+  <body>
+            <header id="header" class="grid-container">
+        <!-- start: .menu-wrapper -->
+        <div class="menu-mobile"> 
+          <i class="fa fa-reorder"></i>
+        </div>
+        <div class="menu-wrapper">
+          <div class="">
+            <div class="logo">
+              <a href="https://Mrshu1991.github.io"><img src="/media/images/logoo.png" alt=""></a>
+            </div>
+            <!-- start: .main-nav -->
+
+            <nav class="main-nav grid-container grid-parent">
+              <ul id="menu-header" class="menu gradient-effect">
+                <li class=""><a href="https://Mrshu1991.github.io" class="menu">首页</a></li>
+                
+                  <li class="" >
+                    <a href="/archives" class="menu">
+                      归档
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/tags" class="menu">
+                      标签
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/post/about" class="menu">
+                      关于
+                    </a>
+                  </li>
+                
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
+              </ul>
+            </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
+            <!-- end: .main-nav -->
+            <div class="clear"></div>
+            <div class="border hide-on-tablet hide-on-mobile"></div>
+          </div>    
+          <div class="clear"></div>
+        </div>
+        <!-- end: .menu-wrapper -->
+        <div class="clear"></div>
+      </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1586913655304" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
+
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%B0%81%E9%9D%A2/%E4%B8%8B%E5%8D%88%2B%E8%B6%B4%E5%9C%A8%E6%A1%8C%E5%AD%90%E7%9A%84%E5%A5%B3%E5%AD%A9.jpg');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2020-04-07"><i class="fa fa-calendar"></i><span class="lately">7 天前</span></time>
+              
+              <a href="https://Mrshu1991.github.io/post/excel-tu-biao-mei-hua-tiao-xing-tu/#comments" class="comments meta-info" title="">
+                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/excel-tu-biao-mei-hua-tiao-xing-tu/"> </span>
+              </a>
+              <span id="/excel-tu-biao-mei-hua-tiao-xing-tu/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
+              
+            </div>
+            <div class="info">
+              <div class="tags ">
+                
+                      <a href="https://Mrshu1991.github.io/tag/kkTBWSgoE/" class="ctag ctag-0 ctag-kkTBWSgoE" aria-label="">PPT技巧</a>
+                    
+              </div>
+              <h1 class="title ularge white bold">Excel图表美化-条形图</h1>
+            </div>
+          </div>
+        </div>  
+
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <p>使用图表将密密麻麻的、枯燥无味的数字变得直观、美观，更易于阅读与理解。</p>
+<!-- more -->
+<p><strong>案例：制作4月份招聘目标完成情况的图表，数据如下</strong>：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">职位</th>
+<th style="text-align:center">目标</th>
+<th style="text-align:center">完成</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">采购专员</td>
+<td style="text-align:center">50</td>
+<td style="text-align:center">34</td>
+</tr>
+<tr>
+<td style="text-align:center">运营助理</td>
+<td style="text-align:center">35</td>
+<td style="text-align:center">27</td>
+</tr>
+<tr>
+<td style="text-align:center">营销主管</td>
+<td style="text-align:center">25</td>
+<td style="text-align:center">18</td>
+</tr>
+<tr>
+<td style="text-align:center">营销策划</td>
+<td style="text-align:center">45</td>
+<td style="text-align:center">39</td>
+</tr>
+</tbody>
+</table>
+<p><mark>效果对比图</mark></p>
+<h2 id=""><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE%E5%AF%B9%E6%AF%94.jpg" alt="对比图" loading="lazy"></h2>
+<h1 id="第一步插入条形图"><strong>第一步：插入条形图</strong></h1>
+<p>1️⃣  选中数据区域（如下图表格中的B2：D6）</p>
+<p>2️⃣  点击【插入】选项卡，选择插入【簇状条形图】</p>
+<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE.jpg" alt="图例1" loading="lazy"></figure>
+<p>3️⃣  调整水平轴参数后删除水平轴</p>
+<figure data-type="image" tabindex="2"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE2.gif" alt="图例2" loading="lazy"></figure>
+<p>4️⃣  删除网格线和垂直轴轮廓</p>
+<figure data-type="image" tabindex="3"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE3.gif" alt="图例3" loading="lazy"></figure>
+<hr>
+<h1 id="第二步用图案替代条形"><strong>第二步：用图案替代条形</strong></h1>
+<p>1️⃣ 准备2个相同图案，1个填充为橙色，1个填充浅灰。这里我用office自带图标演示</p>
+<figure data-type="image" tabindex="4"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE4.gif" alt="图例4" loading="lazy"></figure>
+<p>2️⃣  将图案分别填充到条形图内（橙色图案填充至<code>完成</code>数据条内，浅灰图案填充至<code>目标</code>数据条内）<br>
+<code>ctrl+c 复制</code>     <code>ctrl+v 粘贴</code></p>
+<figure data-type="image" tabindex="5"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE5.gif" alt="图例5" loading="lazy"></figure>
+<p>3️⃣  设置数据系列格式（分别将橙色、灰色图案设置为【层叠】）</p>
+<figure data-type="image" tabindex="6"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE6.gif" alt="图例6" loading="lazy"></figure>
+<p>4️⃣  将两个数据列重叠</p>
+<figure data-type="image" tabindex="7"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE7.gif" alt="图例7" loading="lazy"></figure>
+<hr>
+<h1 id="最后一步微调与修饰"><strong>最后一步：微调与修饰</strong></h1>
+<p>1️⃣  修改图表标题（注意细节非常重要）</p>
+<p>2️⃣  添加数据标签</p>
+<p>3️⃣  图表美化：添加背景色，边框色等等。（商务型图表颜色不要过于杂乱，要符合数据展示所处的环境）</p>
+<p>以下调整的示例图可供参考。</p>
+<figure data-type="image" tabindex="8"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE8.gif" alt="图例8" loading="lazy"></figure>
+<hr>
+<p><font color=darkblu size=10>学以致用，举一反三</font></p>
+
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
+
+            <section class="related section">
+              
+              <article class="prev grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%B0%81%E9%9D%A2/%E6%A8%B1%E8%8A%B1.jpg');"></div>
+                 <a href="https://Mrshu1991.github.io/post/rang-ppt-tu-biao-dong-qi-lai/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-04-08">2020-04-08</time>
+                  <h4 class="title white no-margin">让PPT图表动起来</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://Mrshu1991.github.io/media/images/left-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%B0%81%E9%9D%A2/%E5%8D%A1%E9%80%9A%E8%B5%9B%E8%BD%A6.jpg');"></div>
+                 <a href="https://Mrshu1991.github.io/post/ppt-xin-ni-tai-xue-xi-bi-ji/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-03-14">2020-03-14</time>
+                  <h4 class="title white no-margin">PPT新拟态学习笔记</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://Mrshu1991.github.io/media/images/right-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
+            
+              <div id="comments" class="bg-white hosted ">
+                
+                  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+<div class="clear"></div>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: 'ad380bd46cb8676f8911',
+    clientSecret: '720b0a4d4bc1a93380552bed971f9f3037f25f3a',
+    repo: 'Mrshu1991.github.io',
+    owner: 'Mrshu1991',
+    admin: ['Mrshu1991'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+
+                
+                
+              </div>
+            
+
+            </div>
+          </div>
+      </main>
+
+          <footer id="footer" class="grid-container">
+        <div class="widgets row gradient-effect">
+            <div class="default-sidebar border-effect">
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
+                  <h4 class="widget-title title white bordered">最新文章</h4>
+                  
+                  
+                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Mrshu1991.github.io/post/ce-shi-wen-zhang/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-14">2020-04-14</time>
+                      <h4 class="title usmall">
+                        <a href="https://Mrshu1991.github.io/post/ce-shi-wen-zhang/">测试文章</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Mrshu1991.github.io/post/typecho-chang-jian-wen-ti-jie-jue-fang-an-hui-zong/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-10">2020-04-10</time>
+                      <h4 class="title usmall">
+                        <a href="https://Mrshu1991.github.io/post/typecho-chang-jian-wen-ti-jie-jue-fang-an-hui-zong/">Typecho常见问题解决方案汇总</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Mrshu1991.github.io/post/rang-ppt-tu-biao-dong-qi-lai/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%B0%81%E9%9D%A2/%E6%A8%B1%E8%8A%B1.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-08">2020-04-08</time>
+                      <h4 class="title usmall">
+                        <a href="https://Mrshu1991.github.io/post/rang-ppt-tu-biao-dong-qi-lai/">让PPT图表动起来</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
+                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <div class="tagcloud">
+                    
+                      <a href="https://Mrshu1991.github.io/tag/kkTBWSgoE/" class="ctag ctag-0 ctag-kkTBWSgoE" aria-label="">PPT技巧</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/T8PGP3uYf/" class="ctag ctag-1 ctag-T8PGP3uYf" aria-label="">Excel技巧</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/KwZTe8t57/" class="ctag ctag-2 ctag-KwZTe8t57" aria-label="">Markdown</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/ayx94ljoQ/" class="ctag ctag-3 ctag-ayx94ljoQ" aria-label="">Word技巧</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/hqhtlGFWYu/" class="ctag ctag-4 ctag-hqhtlGFWYu" aria-label="">人力资源知识库</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/0HusjuIufS/" class="ctag ctag-5 ctag-0HusjuIufS" aria-label="">Gridea</a>
+                    
+                  </div>
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
+                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <div class="avatar">
+                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://Mrshu1991.github.io/images/avatar.png);"></span></a>
+                  </div>
+                  <div class="info">
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">keanu</a></h4>
+                    <p class="founder">与其思索人生有何意义，
+不如去做些让人生有意义的事。</p>
+                    <div class="social">
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div> 
+                  </div>
+                  <div class="clear"></div>
+                  </section>
+              </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="logo">
+          <a href="https://Mrshu1991.github.io"><img src="/media/images/gridea.png" alt=""></a>
+        </div>
+        <p class="published border-effect">
+          ©2019 共 24 篇文章
+          <br/>
+          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+        </p>
+        
+        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
+          <i class="fa fa-arrow"></i>
+        </a>
+    </footer>
+    
+    <div class="clear"></div>
+
+        
+
+      
+    <script src="https://Mrshu1991.github.io/media/js/functions-post.js"></script>
+
+    </div>
+    <!-- end: #wrapper -->
+  </body>
+</html>

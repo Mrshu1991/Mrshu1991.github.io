@@ -1,0 +1,466 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MarkDown语法教程 | keanu</title>
+<meta name="description" content="与其思索人生有何意义，
+不如去做些让人生有意义的事。" />
+<link rel="shortcut icon" href="https://Mrshu1991.github.io/favicon.ico">
+<link rel="stylesheet" href="https://Mrshu1991.github.io/styles/main.css">
+
+<script src="https://Mrshu1991.github.io/media/js/jquery.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/masonry.pkgd.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/aos.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/pace.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/view-image.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/jquery.magnific-popup.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/functions.js"></script>
+    <meta name="referrer" content="never">
+    <meta name="description" content="
+ 简介：Markdown 是一种轻量级的标记语言，由John Gruber[1]和Aaron Swartz[2]创建，使其成为可读性最大并可再发行的可输入输出的格式。这种语言创建灵感来自于已经存在的带标记的电子邮件文本。Markdown ..." />
+    <meta name="keywords" content="Markdown" />
+    <script src="https://Mrshu1991.github.io/media/js/waterfall.min.js"></script>
+    <script src="https://Mrshu1991.github.io/media/js/prism.min.js"></script>
+  </head>
+  <body>
+            <header id="header" class="grid-container">
+        <!-- start: .menu-wrapper -->
+        <div class="menu-mobile"> 
+          <i class="fa fa-reorder"></i>
+        </div>
+        <div class="menu-wrapper">
+          <div class="">
+            <div class="logo">
+              <a href="https://Mrshu1991.github.io"><img src="/media/images/logoo.png" alt=""></a>
+            </div>
+            <!-- start: .main-nav -->
+
+            <nav class="main-nav grid-container grid-parent">
+              <ul id="menu-header" class="menu gradient-effect">
+                <li class=""><a href="https://Mrshu1991.github.io" class="menu">首页</a></li>
+                
+                  <li class="" >
+                    <a href="/archives" class="menu">
+                      归档
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/tags" class="menu">
+                      标签
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/post/about" class="menu">
+                      关于
+                    </a>
+                  </li>
+                
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
+              </ul>
+            </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
+            <!-- end: .main-nav -->
+            <div class="clear"></div>
+            <div class="border hide-on-tablet hide-on-mobile"></div>
+          </div>    
+          <div class="clear"></div>
+        </div>
+        <!-- end: .menu-wrapper -->
+        <div class="clear"></div>
+      </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1586913655304" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
+
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%9B%BE%E7%89%871.png');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2020-02-01"><i class="fa fa-calendar"></i><span class="lately">2 个月前</span></time>
+              
+              <a href="https://Mrshu1991.github.io/post/markdown-yu-fa-jiao-cheng/#comments" class="comments meta-info" title="">
+                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/markdown-yu-fa-jiao-cheng/"> </span>
+              </a>
+              <span id="/markdown-yu-fa-jiao-cheng/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
+              
+            </div>
+            <div class="info">
+              <div class="tags ">
+                
+                      <a href="https://Mrshu1991.github.io/tag/KwZTe8t57/" class="ctag ctag-0 ctag-KwZTe8t57" aria-label="">Markdown</a>
+                    
+              </div>
+              <h1 class="title ularge white bold">MarkDown语法教程</h1>
+            </div>
+          </div>
+        </div>  
+
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <blockquote>
+<p> 简介：Markdown 是一种轻量级的标记语言，由John Gruber<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>和Aaron Swartz<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>创建，使其成为可读性最大并可再发行的可输入输出的格式。这种语言创建灵感来自于已经存在的带标记的电子邮件文本。Markdown 允许 HTML 语法, 所以使用者如果需要可以直接用 HTML来表示是可以的。Markdown最初由Gruber应用在Perl语言中，但现在已经有多种编程语言应用了。它是开源项目，并以BSD-style许可证的许可方式以插件形式或内容管理系统形式发布。</p>
+</blockquote>
+<h2 id=""><ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#">@[toc]</a></li>
+</ul>
+</li>
+<li><a href="#1-%E6%A0%87%E9%A2%98">1. 标题</a></li>
+<li><a href="#2-%E5%88%97%E8%A1%A8">2. 列表</a></li>
+<li><a href="#3-%E6%8F%92%E5%85%A5%E8%B6%85%E9%93%BE%E6%8E%A5">3. 插入超链接</a></li>
+<li><a href="#4-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87">4. 插入图片</a></li>
+<li><a href="#5-%E5%BC%95%E7%94%A8">5. 引用</a></li>
+<li><a href="#6-%E8%A1%A8%E6%A0%BC">6. 表格</a></li>
+<li><a href="#7-%E5%A4%8D%E9%80%89%E6%A1%86">7. 复选框</a></li>
+<li><a href="#8-%E6%B3%A8%E8%84%9A">8. 注脚</a></li>
+<li><a href="#9-%E7%9B%AE%E5%BD%95">9. 目录</a></li>
+<li><a href="#10-%E5%88%86%E5%89%B2%E7%BA%BF">10. 分割线</a></li>
+<li><a href="#11-%E6%96%87%E5%AD%97%E4%B8%8E%E6%8E%92%E7%89%88">11. 文字与排版</a></li>
+<li><a href="#12-%E8%A1%8C%E5%86%85%E6%A0%87%E8%AE%B0">12. 行内标记</a></li>
+<li><a href="#13-%E4%BB%A3%E7%A0%81%E5%9D%97">13. 代码块</a></li>
+</ul>
+</h2>
+<h1 id="1-标题">1. 标题</h1>
+<p>语法：<code># 标题</code>，每增加一个<code>#</code>标题相应增加1级，最多6级。<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9C%89%E5%BA%8F%E6%A0%87%E9%A2%98.png" alt="有序标题" loading="lazy"></p>
+<h1 id="2-列表">2. 列表</h1>
+<p>1️⃣ 有序列表语法：<code>1. 列表</code><br>
+2️⃣ 无序列表语法：<code>- 列表</code><br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%88%97%E8%A1%A8.jpg" alt="列表" loading="lazy"></p>
+<h1 id="3-插入超链接">3. 插入超链接</h1>
+<p>语法：<code>[显示文本](链接)</code> 。显示的文本一定要输入。<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E8%B6%85%E9%93%BE%E6%8E%A5.png" alt="超链接" loading="lazy"></p>
+<h1 id="4-插入图片">4. 插入图片</h1>
+<p>语法1️⃣：<code>![显示文本](图片链接)</code>。显示的文本可写可不写，其作用在于图片加载不出时才会显示。另外很多MD编辑器是不支持直接导入本地图片的，所以我们需要把图片放在图床再复制链接引用。<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%9B%BE%E7%89%87.jpg" alt="插入图片" loading="lazy"><br>
+语法2️⃣：<code>&lt;img src=&quot;图片链接&quot; width=&quot;300&quot; height=&quot;200&quot;&gt;</code> 。可以通过修改width和height的参数调整图片显示的大小。<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%9B%BE%E7%89%87.jpg" width="300" height="200"></p>
+<h1 id="5-引用">5. 引用</h1>
+<p>语法：<code>&gt; 引用的内容</code><br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%BC%95%E7%94%A8.jpg" alt="引用" loading="lazy"></p>
+<h1 id="6-表格">6. 表格</h1>
+<p>语法：</p>
+<pre><code>中国|湖北|武汉      
+---|---|---
+昨天|今天|明天
+</code></pre>
+<p><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E8%A1%A8%E6%A0%BC.jpg" alt="表格" loading="lazy"><br>
+📣：表格内容居中<code>:---:</code></p>
+<h1 id="7-复选框">7. 复选框</h1>
+<p>语法：<code>-[ ] 内容</code>  非勾选；<code>-[x] 内容</code> 已勾选<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%A4%8D%E9%80%89%E6%A1%86.jpg" alt="复选框" loading="lazy"></p>
+<h1 id="8-注脚">8. 注脚</h1>
+<p>测试<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></p>
+<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%B3%A8%E8%84%9A.jpg" alt="注脚" loading="lazy"></figure>
+<h1 id="9-目录">9. 目录</h1>
+<p>语法：<code>[toc]</code><br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/1580544660(1).jpg" alt="目录" loading="lazy"></p>
+<h1 id="10-分割线">10. 分割线</h1>
+<p>语法：<code>---</code>或者<code>***</code><br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%88%86%E5%89%B2%E7%BA%BF.jpg" alt="分割线" loading="lazy"></p>
+<h1 id="11-文字与排版">11. 文字与排版</h1>
+<p>1️⃣ 缩进：一个中文字符<code>&amp;emsp;</code>；半个中文字符<code>&amp;ensp;</code>；1/4个中文字符<code>&amp;nbsp;</code>。<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BC%A9%E8%BF%9B.png" alt="缩进" loading="lazy"><br>
+2️⃣ 居中：<code>&lt;center&gt;内容&lt;/center&gt;</code>。<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%B1%85%E4%B8%AD.jpg" alt="居中" loading="lazy"><br>
+3️⃣ 粗体、斜体、下划线、删除线：斜体<code>*内容*</code>；粗体<code>**内容**</code>，下划线<code>++内容++</code>，删除线<code>~~内容~~</code>。<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%B2%97%E6%96%9C.png" alt="图例3" loading="lazy"><br>
+4️⃣ 修改字体、字号与颜色：<code>&lt;font color=red face=“黑体“ size=30&gt;中国&lt;/font&gt;</code><br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%AD%97%E4%BD%93%E5%AD%97%E5%8F%B7%E9%A2%9C%E8%89%B2.jpg" alt="字体" loading="lazy"><br>
+5️⃣ 内容标注：<code>==内容==</code><br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%A0%87%E6%B3%A8.png" alt="标注" loading="lazy"><br>
+6️⃣ 背景色设置：<br>
+<code>&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=#FF00FF&gt;背景色的设置是按照十六进制颜色值：#7FFFD4&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</code><br>
+颜色码对照表<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></p>
+<h1 id="12-行内标记">12. 行内标记</h1>
+<p>语法：用 ` 将一段内容进行标记。<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E8%A1%8C%E5%86%85%E6%A0%87%E8%AE%B0.png" alt="行内标记" loading="lazy"></p>
+<h1 id="13-代码块">13. 代码块</h1>
+<p>语法：用 ```将一段代码进行标记。<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E4%BB%A3%E7%A0%81%E5%9D%97.jpg" alt="代码块" loading="lazy"></p>
+<blockquote>
+<center><font color=deeppink size=5>言今日难于前日，安知他日不难于今日乎---苏轼</font></center>
+</blockquote>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><strong><font color=darkgreen face="黑体" size=5>约翰·格鲁伯 (John Gruber)</font></strong><br><br><center><br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BA%A6%E7%BF%B0.jpg" width="30%" height="30%" alt="John Gruber"/><br><br>
+John Gruber 苹果社群的著名 blogger，持续观察和发表苹果公司相关资讯和观点长达十余年。本职工作是软件工程师。Markdown 的发明人。现在有一个合作的 iOS 应用项目.</center><br> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><strong><font color=darkgreen face="黑体" size=5>亚伦·斯沃茨(aaron swartz)</font></strong><br><br><center><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E4%BA%9A%E7%BA%B6.jpg" width="30%" height="30%" /><br>Aaron Swartz(1986年11月8日－2013年1月11日)，一位程序员、作家、政治组织策划人和积极行动主义者。他年仅14岁就参与创造RSS 1.0规格，因而在程式设计圈当中声名大噪。著名的互联网之子于13年陨落。<br><br>
+<a href="https://baike.sogou.com/v58536468.htm?fromTitle=aaron+swartz">亚伦·斯沃茨百科词条</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>测试 <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E9%A2%9C%E8%89%B2%E7%A0%81%E5%AF%B9%E7%85%A7%E8%A1%A8.png" alt="颜色码对照表" loading="lazy"> <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
+
+            <section class="related section">
+              
+              <article class="prev grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/xc.jpg');"></div>
+                 <a href="https://Mrshu1991.github.io/post/subtotalyi-ge-han-shu-jie-jue-ni-suo-you-de-qiu-he-nan-ti/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-02-03">2020-02-03</time>
+                  <h4 class="title white no-margin">以一敌十的”SUBTOTAL“。</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://Mrshu1991.github.io/media/images/left-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/dahai.jpg');"></div>
+                 <a href="https://Mrshu1991.github.io/post/ppt-kuai-su-shang-shou-zhi-nan/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-01-31">2020-01-31</time>
+                  <h4 class="title white no-margin">PPT快速上手指南</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://Mrshu1991.github.io/media/images/right-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
+            
+              <div id="comments" class="bg-white hosted ">
+                
+                  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+<div class="clear"></div>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: 'ad380bd46cb8676f8911',
+    clientSecret: '720b0a4d4bc1a93380552bed971f9f3037f25f3a',
+    repo: 'Mrshu1991.github.io',
+    owner: 'Mrshu1991',
+    admin: ['Mrshu1991'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+
+                
+                
+              </div>
+            
+
+            </div>
+          </div>
+      </main>
+
+          <footer id="footer" class="grid-container">
+        <div class="widgets row gradient-effect">
+            <div class="default-sidebar border-effect">
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
+                  <h4 class="widget-title title white bordered">最新文章</h4>
+                  
+                  
+                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Mrshu1991.github.io/post/ce-shi-wen-zhang/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-14">2020-04-14</time>
+                      <h4 class="title usmall">
+                        <a href="https://Mrshu1991.github.io/post/ce-shi-wen-zhang/">测试文章</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Mrshu1991.github.io/post/typecho-chang-jian-wen-ti-jie-jue-fang-an-hui-zong/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-10">2020-04-10</time>
+                      <h4 class="title usmall">
+                        <a href="https://Mrshu1991.github.io/post/typecho-chang-jian-wen-ti-jie-jue-fang-an-hui-zong/">Typecho常见问题解决方案汇总</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Mrshu1991.github.io/post/rang-ppt-tu-biao-dong-qi-lai/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%B0%81%E9%9D%A2/%E6%A8%B1%E8%8A%B1.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-08">2020-04-08</time>
+                      <h4 class="title usmall">
+                        <a href="https://Mrshu1991.github.io/post/rang-ppt-tu-biao-dong-qi-lai/">让PPT图表动起来</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
+                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <div class="tagcloud">
+                    
+                      <a href="https://Mrshu1991.github.io/tag/kkTBWSgoE/" class="ctag ctag-0 ctag-kkTBWSgoE" aria-label="">PPT技巧</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/T8PGP3uYf/" class="ctag ctag-1 ctag-T8PGP3uYf" aria-label="">Excel技巧</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/KwZTe8t57/" class="ctag ctag-2 ctag-KwZTe8t57" aria-label="">Markdown</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/ayx94ljoQ/" class="ctag ctag-3 ctag-ayx94ljoQ" aria-label="">Word技巧</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/hqhtlGFWYu/" class="ctag ctag-4 ctag-hqhtlGFWYu" aria-label="">人力资源知识库</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/0HusjuIufS/" class="ctag ctag-5 ctag-0HusjuIufS" aria-label="">Gridea</a>
+                    
+                  </div>
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
+                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <div class="avatar">
+                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://Mrshu1991.github.io/images/avatar.png);"></span></a>
+                  </div>
+                  <div class="info">
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">keanu</a></h4>
+                    <p class="founder">与其思索人生有何意义，
+不如去做些让人生有意义的事。</p>
+                    <div class="social">
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div> 
+                  </div>
+                  <div class="clear"></div>
+                  </section>
+              </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="logo">
+          <a href="https://Mrshu1991.github.io"><img src="/media/images/gridea.png" alt=""></a>
+        </div>
+        <p class="published border-effect">
+          ©2019 共 24 篇文章
+          <br/>
+          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+        </p>
+        
+        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
+          <i class="fa fa-arrow"></i>
+        </a>
+    </footer>
+    
+    <div class="clear"></div>
+
+        
+
+      
+    <script src="https://Mrshu1991.github.io/media/js/functions-post.js"></script>
+
+    </div>
+    <!-- end: #wrapper -->
+  </body>
+</html>

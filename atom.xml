@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Mrshu1991.github.io</id>
+    <title>keanu</title>
+    <updated>2020-04-15T01:21:00.580Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Mrshu1991.github.io"/>
+    <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
+    <subtitle>与其思索人生有何意义，
+不如去做些让人生有意义的事。</subtitle>
+    <logo>https://Mrshu1991.github.io/images/avatar.png</logo>
+    <icon>https://Mrshu1991.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, keanu</rights>
+    <entry>
+        <title type="html"><![CDATA[测试文章]]></title>
+        <id>https://Mrshu1991.github.io/post/ce-shi-wen-zhang/</id>
+        <link href="https://Mrshu1991.github.io/post/ce-shi-wen-zhang/">
+        </link>
+        <updated>2020-04-14T14:52:37.000Z</updated>
+        <content type="html"><![CDATA[<p>Text gredea</p>
+<p>text two<br>
+text five</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[让PPT图表动起来]]></title>
+        <id>https://Mrshu1991.github.io/post/rang-ppt-tu-biao-dong-qi-lai/</id>
+        <link href="https://Mrshu1991.github.io/post/rang-ppt-tu-biao-dong-qi-lai/">
+        </link>
+        <updated>2020-04-08T13:10:55.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>作为数据展示的载体，动态图表会更加生动，可以有更好的展示效果。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>作为数据展示的载体，动态图表会更加生动，可以有更好的展示效果。</p>
+</blockquote>
+<!-- more -->
+<table><tr><td bgcolor=#darkblue>效果演示</td></tr></table>
+<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/PPT%E5%8A%A8%E6%80%81%E5%9B%BE%E8%A1%A8.gif" alt="图例1" loading="lazy"></figure>
+<p>
+<figure data-type="image" tabindex="2"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%88%86%E5%89%B2%E7%BA%BF%E7%BA%A2%E8%89%B2.png" alt="分割线" loading="lazy"></figure>
+<p>
+<p>📝  Tips：</p>
+<p>1️⃣  目前仅有【擦除】动画效果可以完美适用于图表；</p>
+<p>2️⃣  目前只有【柱形图】、【折线图】、【柱状图】，以及以上三种类型的组合图适用；</p>
+<hr>
+<table><tr><td bgcolor=#darkblue>教程</td></tr></table>
+<ol>
+<li>
+<p>选中图表，点击【动画】选项卡，选中【擦除】动画效果；</p>
+</li>
+<li>
+<p>点击【效果选项】，调整<code>方向</code>和<code>序列</code>；不同的<code>方向</code>和<code>序列</code>的选择，图表会有不同的展示效果；</p>
+</li>
+<li>
+<p>调整动画的播放方式、持续时间等参数。</p>
+<figure data-type="image" tabindex="3"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/PPT%E5%8A%A8%E6%80%81%E5%9B%BE%E8%A1%A8%E5%88%B6%E4%BD%9C.gif" alt="图例2" loading="lazy"></figure>
+</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Excel图表美化-条形图]]></title>
+        <id>https://Mrshu1991.github.io/post/excel-tu-biao-mei-hua-tiao-xing-tu/</id>
+        <link href="https://Mrshu1991.github.io/post/excel-tu-biao-mei-hua-tiao-xing-tu/">
+        </link>
+        <updated>2020-04-07T13:46:47.000Z</updated>
+        <summary type="html"><![CDATA[<p>使用图表将密密麻麻的、枯燥无味的数字变得直观、美观，更易于阅读与理解。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>使用图表将密密麻麻的、枯燥无味的数字变得直观、美观，更易于阅读与理解。</p>
+<!-- more -->
+<p><strong>案例：制作4月份招聘目标完成情况的图表，数据如下</strong>：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">职位</th>
+<th style="text-align:center">目标</th>
+<th style="text-align:center">完成</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">采购专员</td>
+<td style="text-align:center">50</td>
+<td style="text-align:center">34</td>
+</tr>
+<tr>
+<td style="text-align:center">运营助理</td>
+<td style="text-align:center">35</td>
+<td style="text-align:center">27</td>
+</tr>
+<tr>
+<td style="text-align:center">营销主管</td>
+<td style="text-align:center">25</td>
+<td style="text-align:center">18</td>
+</tr>
+<tr>
+<td style="text-align:center">营销策划</td>
+<td style="text-align:center">45</td>
+<td style="text-align:center">39</td>
+</tr>
+</tbody>
+</table>
+<p><mark>效果对比图</mark></p>
+<h2 id=""><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE%E5%AF%B9%E6%AF%94.jpg" alt="对比图" loading="lazy"></h2>
+<h1 id="第一步插入条形图"><strong>第一步：插入条形图</strong></h1>
+<p>1️⃣  选中数据区域（如下图表格中的B2：D6）</p>
+<p>2️⃣  点击【插入】选项卡，选择插入【簇状条形图】</p>
+<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE.jpg" alt="图例1" loading="lazy"></figure>
+<p>3️⃣  调整水平轴参数后删除水平轴</p>
+<figure data-type="image" tabindex="2"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE2.gif" alt="图例2" loading="lazy"></figure>
+<p>4️⃣  删除网格线和垂直轴轮廓</p>
+<figure data-type="image" tabindex="3"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE3.gif" alt="图例3" loading="lazy"></figure>
+<hr>
+<h1 id="第二步用图案替代条形"><strong>第二步：用图案替代条形</strong></h1>
+<p>1️⃣ 准备2个相同图案，1个填充为橙色，1个填充浅灰。这里我用office自带图标演示</p>
+<figure data-type="image" tabindex="4"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE4.gif" alt="图例4" loading="lazy"></figure>
+<p>2️⃣  将图案分别填充到条形图内（橙色图案填充至<code>完成</code>数据条内，浅灰图案填充至<code>目标</code>数据条内）<br>
+<code>ctrl+c 复制</code>     <code>ctrl+v 粘贴</code></p>
+<figure data-type="image" tabindex="5"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE5.gif" alt="图例5" loading="lazy"></figure>
+<p>3️⃣  设置数据系列格式（分别将橙色、灰色图案设置为【层叠】）</p>
+<figure data-type="image" tabindex="6"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE6.gif" alt="图例6" loading="lazy"></figure>
+<p>4️⃣  将两个数据列重叠</p>
+<figure data-type="image" tabindex="7"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE7.gif" alt="图例7" loading="lazy"></figure>
+<hr>
+<h1 id="最后一步微调与修饰"><strong>最后一步：微调与修饰</strong></h1>
+<p>1️⃣  修改图表标题（注意细节非常重要）</p>
+<p>2️⃣  添加数据标签</p>
+<p>3️⃣  图表美化：添加背景色，边框色等等。（商务型图表颜色不要过于杂乱，要符合数据展示所处的环境）</p>
+<p>以下调整的示例图可供参考。</p>
+<figure data-type="image" tabindex="8"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE8.gif" alt="图例8" loading="lazy"></figure>
+<hr>
+<p><font color=darkblu size=10>学以致用，举一反三</font></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PPT新拟态学习笔记]]></title>
+        <id>https://Mrshu1991.github.io/post/ppt-xin-ni-tai-xue-xi-bi-ji/</id>
+        <link href="https://Mrshu1991.github.io/post/ppt-xin-ni-tai-xue-xi-bi-ji/">
+        </link>
+        <updated>2020-03-14T10:10:32.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="关于新拟态">关于新拟态</h1>
+<p><code>“Neumorphism（新拟态）”</code> <code>&quot;Soft UI（软UI）&quot;，</code></p>
+<p>  2019年11月<a href="https://dribbble.com/alexplyuto">Alexander Plyuto</a>在Dribbble上发布其一系列新拟态作品展示，引发极大的反响。</p>
+<p>  简单说来，新拟态其实就是图形的一种表现形式，通过灯光的原理给图形添加上高光和阴影，赋予图形更多真实立体的效果。</p>
+<p>📺通过以下两张展示图就能很简单的理解什么是<code>新拟态</code>。</p>
+<p><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/soft%201.png" alt="@Dribbble-Alexander Plyuto的作品" loading="lazy"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/soft2.png" alt="@Dribbble-Alexander Plyuto的作品" loading="lazy"></p>
+<p>新拟态的特点：<code>立体</code>，<code>时尚</code>，<code>简约</code></p>
+<h1 id="新拟态的优缺点">新拟态的优缺点</h1>
+<p>这里引用一段公众号<code>叶宏泽演示研究所</code>对新拟态的评价：</p>
+<blockquote>
+<p>  新拟态让设计作品更加具备质感，细节，同时让画面更加有层次感，画面干净， 给人耳目一新的感觉。<br>
+  但是，我们从客观来看，以及结合大众对新拟态的评价，新拟态也有着难以逃脱的弊端：对比度太低，对放映设备有较高要求，若是幻灯片投影，细节难以展现。<br>
+  但也不见得因为这个缺点而让新拟态失去了发展空间，同时也相信过不了多久，能在一场大型发布会见到新拟态的身影！</p>
+</blockquote>
+<h1 id="新拟态制作">新拟态制作</h1>
+<h2 id="1-凸起质感">1. 凸起质感</h2>
+<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E9%87%8D%E5%8F%A0%E6%B3%95.gif" alt="重叠法" loading="lazy"></figure>
+<p>📝步骤：</p>
+<p>① 插入圆角矩形，设置形状格式：去除轮廓，用<code>取色器</code>填充为背景色；<br>
+② 将矩形复制一份，以确保形状完全一致；<br>
+③ 制作高光部分：设置形状效果【阴影】，阴影效果设置为【左上，白色】；<br>
+④ 制作阴影部分：设置形状效果【阴影】，阴影效果设置为【右下，黑色】；<br>
+⑤ 合并2个矩形：选中2个矩形对齐【垂直居中】，【水平居中】，然后组合。</p>
+<h2 id="2-凹陷质感">2. 凹陷质感</h2>
+<figure data-type="image" tabindex="2"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%87%B9%E9%99%B7.png" alt="凹陷" loading="lazy"></figure>
+<p>📝步骤：</p>
+<p>① 插入圆角矩形，用<code>取色器</code>填充为背景色；<br>
+② 边框设置为渐变填充，保留2个渐变锚点。白色渐变位于右下角，调整粗细角度。另一个锚点直接设置为100%透明度；<br>
+③ 设置形状格式【阴影】，选择阴影效果为黑色【内测左上】。</p>
+<h2 id="3-混合质感">3. 混合质感</h2>
+<figure data-type="image" tabindex="3"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%B7%B7%E5%90%88%E8%B4%A8%E6%84%9F.png" alt="混合质感" loading="lazy"></figure>
+<p>📝步骤：</p>
+<p>① 分别制作凸起质感的形状和凹陷质感的形状各一个；<br>
+② 合并，调整对齐【垂直居中】【水平居中】；</p>
+<h2 id="4-文字新拟态">4. 文字新拟态</h2>
+<figure data-type="image" tabindex="4"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BB%83%E4%B9%A0%E4%BD%9C%E5%93%81.png" alt="文字新拟态" loading="lazy"></figure>
+<p>1️⃣ 参照“<a href="#1-%E5%87%B8%E8%B5%B7%E8%B4%A8%E6%84%9F">凸起质感的方法</a>”<br>
+因为是由两段文字重叠的，不利于后期修改，我个人不太建议使用此方法。</p>
+<p>2️⃣  方法2</p>
+<p>📝步骤：</p>
+<p>① 插入文本，修改好字体、大小，建议填充为与背景色搭配的颜色；<br>
+②  选中文本框，右键【设置对象格式】，【形状选项】【效果】选择右下阴影效果，设置为深色填充，调整透明度、大小等参数；<br>
+③【文本选项】【效果】选择左上阴影效果，设置为白色填充，调整透明度、大小等参数；</p>
+<hr>
+<p><mark>练习作品展示</mark>💻</p>
+<figure data-type="image" tabindex="5"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/soft3.png" alt="作品展示" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python学习笔记-Turtle库]]></title>
+        <id>https://Mrshu1991.github.io/post/python-xue-xi-bi-ji-turtle-ku/</id>
+        <link href="https://Mrshu1991.github.io/post/python-xue-xi-bi-ji-turtle-ku/">
+        </link>
+        <updated>2020-03-11T04:56:11.000Z</updated>
+        <summary type="html"><![CDATA[<p>Turtle库又名海龟库，为Python内置图形化模块。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Turtle库又名海龟库，为Python内置图形化模块。</p>
+<!-- more -->
+<h1 id="1-控制画笔绘制状态">1. 控制画笔绘制状态</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">代码</th>
+<th style="text-align:center">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">pendown</td>
+<td style="text-align:center">放下画地，移动到制定点后继续绘制</td>
+</tr>
+<tr>
+<td style="text-align:center">penup</td>
+<td style="text-align:center">提起画笔，用于另起一个地方绘制时用，与pendown()配对使用</td>
+</tr>
+<tr>
+<td style="text-align:center">penseze</td>
+<td style="text-align:center">设置画笔线条的粗细</td>
+</tr>
+</tbody>
+</table>
+<h1 id="2-控制画笔运动">2. 控制画笔运动</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">代码</th>
+<th style="text-align:center">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">forward</td>
+<td style="text-align:center">沿着当前方向前进指定距离</td>
+</tr>
+<tr>
+<td style="text-align:center">backward</td>
+<td style="text-align:center">沿着当前相反方向后退指定距离</td>
+</tr>
+<tr>
+<td style="text-align:center">right</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">left</td>
+<td style="text-align:center">向左旋转一定角度</td>
+</tr>
+<tr>
+<td style="text-align:center">goto</td>
+<td style="text-align:center">移动到绝对坐标处</td>
+</tr>
+<tr>
+<td style="text-align:center">setx</td>
+<td style="text-align:center">将当前X轴移动到指定位置</td>
+</tr>
+<tr>
+<td style="text-align:center">sety</td>
+<td style="text-align:center">将当前y轴移动到指定位置</td>
+</tr>
+<tr>
+<td style="text-align:center">setheading</td>
+<td style="text-align:center">设置当前朝向为某角度</td>
+</tr>
+<tr>
+<td style="text-align:center">home</td>
+<td style="text-align:center">设置当前画笔位置为远点，朝向东</td>
+</tr>
+<tr>
+<td style="text-align:center">cricle</td>
+<td style="text-align:center">绘制一个指定半径，角度以及步骤的圆圈</td>
+</tr>
+<tr>
+<td style="text-align:center">dot</td>
+<td style="text-align:center">绘制一个指定直径和颜色的圆点</td>
+</tr>
+<tr>
+<td style="text-align:center">undo</td>
+<td style="text-align:center">撤销画笔最后一步动作</td>
+</tr>
+<tr>
+<td style="text-align:center">speed</td>
+<td style="text-align:center">设置画笔的绘制速度，参会为0-10之间</td>
+</tr>
+</tbody>
+</table>
+<h1 id="3-颜色和字体">3. 颜色和字体</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">代码</th>
+<th style="text-align:center">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">color</td>
+<td style="text-align:center">设置画笔的颜色</td>
+</tr>
+<tr>
+<td style="text-align:center">begin_fill</td>
+<td style="text-align:center">填充图形前，调用该方法</td>
+</tr>
+<tr>
+<td style="text-align:center">end_fill</td>
+<td style="text-align:center">填充图形结束</td>
+</tr>
+<tr>
+<td style="text-align:center">filling</td>
+<td style="text-align:center">返回填充的状态，True为填充，False为未填充</td>
+</tr>
+<tr>
+<td style="text-align:center">clear</td>
+<td style="text-align:center">清空当前窗口，但不改变当前画笔的位置</td>
+</tr>
+<tr>
+<td style="text-align:center">reset</td>
+<td style="text-align:center">清空当前窗口，并重置位置等状态为默认值</td>
+</tr>
+<tr>
+<td style="text-align:center">screensize</td>
+<td style="text-align:center">设置画布的长和宽</td>
+</tr>
+<tr>
+<td style="text-align:center">hideturtle</td>
+<td style="text-align:center">隐藏画笔的turtle形状</td>
+</tr>
+<tr>
+<td style="text-align:center">showturtle</td>
+<td style="text-align:center">显示画笔的turtle形状</td>
+</tr>
+<tr>
+<td style="text-align:center">isvisible</td>
+<td style="text-align:center">如果turtle可见，则返回True</td>
+</tr>
+<tr>
+<td style="text-align:center">wirte</td>
+<td style="text-align:center">输出font字体的字符串</td>
+</tr>
+</tbody>
+</table>
+<h1 id="4-练习实例">4. 练习实例</h1>
+<pre><code>import turtle
+
+def main():
+    turtle.pensize(3)
+    turtle.penup()
+    turtle.goto(-200,-50)
+    turtle.pendown()
+    turtle.begin_fill()
+    turtle.color(&quot;red&quot;)
+    turtle.circle(40, steps=3)
+    turtle.end_fill()
+
+
+    turtle.penup()
+    turtle.goto(-100,-50)
+    turtle.pendown()
+    turtle.begin_fill()
+    turtle.color(&quot;blue&quot;)
+    turtle.circle(40, steps=4)
+    turtle.end_fill()
+
+    turtle.penup()
+    turtle.goto(0,-50)
+    turtle.pendown()
+    turtle.begin_fill()
+    turtle.color(&quot;green&quot;)
+    turtle.circle(40, steps=5)
+    turtle.end_fill()
+
+    turtle.penup()
+    turtle.goto(100,-50)
+    turtle.pendown()
+    turtle.begin_fill()
+    turtle.color(&quot;yellow&quot;)
+    turtle.circle(40, steps=6)
+    turtle.end_fill()
+
+    turtle.penup()
+    turtle.goto(200,-50)
+    turtle.pendown()
+    turtle.begin_fill()
+    turtle.color(&quot;purple&quot;)
+    turtle.circle(40)
+    turtle.end_fill()
+
+    turtle.color(&quot;green&quot;)
+    turtle.penup()
+    turtle.goto(-100,50)
+    turtle.pendown()
+    turtle.write((&quot;Cool Colorful shapes&quot;),
+        font = (&quot;Times&quot;, 18, &quot;bold&quot;))
+    turtle.hideturtle()
+
+    turtle.done
+
+if __name__ == '__main__':
+    main()
+
+</code></pre>
+<p>效果👇👇👇</p>
+<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/py%E6%BC%94%E7%A4%BA.gif" alt="演示" loading="lazy"></figure>
+]]></content>
+    </entry>
+</feed>

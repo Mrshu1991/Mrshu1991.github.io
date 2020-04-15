@@ -1,0 +1,584 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Python学习笔记-Turtle库 | keanu</title>
+<meta name="description" content="与其思索人生有何意义，
+不如去做些让人生有意义的事。" />
+<link rel="shortcut icon" href="https://Mrshu1991.github.io/favicon.ico">
+<link rel="stylesheet" href="https://Mrshu1991.github.io/styles/main.css">
+
+<script src="https://Mrshu1991.github.io/media/js/jquery.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/masonry.pkgd.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/aos.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/pace.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/view-image.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/jquery.magnific-popup.min.js"></script>
+<script src="https://Mrshu1991.github.io/media/js/functions.js"></script>
+    <meta name="referrer" content="never">
+    <meta name="description" content="Turtle库又名海龟库，为Python内置图形化模块。
+
+1. 控制画笔绘制状态
+
+
+
+代码
+含义
+
+
+
+
+pendown
+放下画地，移动到制定点后继续绘制
+
+
+penup
+提起画笔，用于另起一个地方绘制时用，与pendown()配对使用..." />
+    <meta name="keywords" content="" />
+    <script src="https://Mrshu1991.github.io/media/js/waterfall.min.js"></script>
+    <script src="https://Mrshu1991.github.io/media/js/prism.min.js"></script>
+  </head>
+  <body>
+            <header id="header" class="grid-container">
+        <!-- start: .menu-wrapper -->
+        <div class="menu-mobile"> 
+          <i class="fa fa-reorder"></i>
+        </div>
+        <div class="menu-wrapper">
+          <div class="">
+            <div class="logo">
+              <a href="https://Mrshu1991.github.io"><img src="/media/images/logoo.png" alt=""></a>
+            </div>
+            <!-- start: .main-nav -->
+
+            <nav class="main-nav grid-container grid-parent">
+              <ul id="menu-header" class="menu gradient-effect">
+                <li class=""><a href="https://Mrshu1991.github.io" class="menu">首页</a></li>
+                
+                  <li class="" >
+                    <a href="/archives" class="menu">
+                      归档
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/tags" class="menu">
+                      标签
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/post/about" class="menu">
+                      关于
+                    </a>
+                  </li>
+                
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
+              </ul>
+            </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
+            <!-- end: .main-nav -->
+            <div class="clear"></div>
+            <div class="border hide-on-tablet hide-on-mobile"></div>
+          </div>    
+          <div class="clear"></div>
+        </div>
+        <!-- end: .menu-wrapper -->
+        <div class="clear"></div>
+      </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1586913655304" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
+
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%B0%81%E9%9D%A2/%E5%A4%A9%E9%B9%852.jpg');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2020-03-11"><i class="fa fa-calendar"></i><span class="lately">1 个月前</span></time>
+              
+              <a href="https://Mrshu1991.github.io/post/python-xue-xi-bi-ji-turtle-ku/#comments" class="comments meta-info" title="">
+                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/python-xue-xi-bi-ji-turtle-ku/"> </span>
+              </a>
+              <span id="/python-xue-xi-bi-ji-turtle-ku/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
+              
+            </div>
+            <div class="info">
+              <div class="tags ">
+                
+              </div>
+              <h1 class="title ularge white bold">Python学习笔记-Turtle库</h1>
+            </div>
+          </div>
+        </div>  
+
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <p>Turtle库又名海龟库，为Python内置图形化模块。</p>
+<!-- more -->
+<h1 id="1-控制画笔绘制状态">1. 控制画笔绘制状态</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">代码</th>
+<th style="text-align:center">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">pendown</td>
+<td style="text-align:center">放下画地，移动到制定点后继续绘制</td>
+</tr>
+<tr>
+<td style="text-align:center">penup</td>
+<td style="text-align:center">提起画笔，用于另起一个地方绘制时用，与pendown()配对使用</td>
+</tr>
+<tr>
+<td style="text-align:center">penseze</td>
+<td style="text-align:center">设置画笔线条的粗细</td>
+</tr>
+</tbody>
+</table>
+<h1 id="2-控制画笔运动">2. 控制画笔运动</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">代码</th>
+<th style="text-align:center">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">forward</td>
+<td style="text-align:center">沿着当前方向前进指定距离</td>
+</tr>
+<tr>
+<td style="text-align:center">backward</td>
+<td style="text-align:center">沿着当前相反方向后退指定距离</td>
+</tr>
+<tr>
+<td style="text-align:center">right</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">left</td>
+<td style="text-align:center">向左旋转一定角度</td>
+</tr>
+<tr>
+<td style="text-align:center">goto</td>
+<td style="text-align:center">移动到绝对坐标处</td>
+</tr>
+<tr>
+<td style="text-align:center">setx</td>
+<td style="text-align:center">将当前X轴移动到指定位置</td>
+</tr>
+<tr>
+<td style="text-align:center">sety</td>
+<td style="text-align:center">将当前y轴移动到指定位置</td>
+</tr>
+<tr>
+<td style="text-align:center">setheading</td>
+<td style="text-align:center">设置当前朝向为某角度</td>
+</tr>
+<tr>
+<td style="text-align:center">home</td>
+<td style="text-align:center">设置当前画笔位置为远点，朝向东</td>
+</tr>
+<tr>
+<td style="text-align:center">cricle</td>
+<td style="text-align:center">绘制一个指定半径，角度以及步骤的圆圈</td>
+</tr>
+<tr>
+<td style="text-align:center">dot</td>
+<td style="text-align:center">绘制一个指定直径和颜色的圆点</td>
+</tr>
+<tr>
+<td style="text-align:center">undo</td>
+<td style="text-align:center">撤销画笔最后一步动作</td>
+</tr>
+<tr>
+<td style="text-align:center">speed</td>
+<td style="text-align:center">设置画笔的绘制速度，参会为0-10之间</td>
+</tr>
+</tbody>
+</table>
+<h1 id="3-颜色和字体">3. 颜色和字体</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">代码</th>
+<th style="text-align:center">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">color</td>
+<td style="text-align:center">设置画笔的颜色</td>
+</tr>
+<tr>
+<td style="text-align:center">begin_fill</td>
+<td style="text-align:center">填充图形前，调用该方法</td>
+</tr>
+<tr>
+<td style="text-align:center">end_fill</td>
+<td style="text-align:center">填充图形结束</td>
+</tr>
+<tr>
+<td style="text-align:center">filling</td>
+<td style="text-align:center">返回填充的状态，True为填充，False为未填充</td>
+</tr>
+<tr>
+<td style="text-align:center">clear</td>
+<td style="text-align:center">清空当前窗口，但不改变当前画笔的位置</td>
+</tr>
+<tr>
+<td style="text-align:center">reset</td>
+<td style="text-align:center">清空当前窗口，并重置位置等状态为默认值</td>
+</tr>
+<tr>
+<td style="text-align:center">screensize</td>
+<td style="text-align:center">设置画布的长和宽</td>
+</tr>
+<tr>
+<td style="text-align:center">hideturtle</td>
+<td style="text-align:center">隐藏画笔的turtle形状</td>
+</tr>
+<tr>
+<td style="text-align:center">showturtle</td>
+<td style="text-align:center">显示画笔的turtle形状</td>
+</tr>
+<tr>
+<td style="text-align:center">isvisible</td>
+<td style="text-align:center">如果turtle可见，则返回True</td>
+</tr>
+<tr>
+<td style="text-align:center">wirte</td>
+<td style="text-align:center">输出font字体的字符串</td>
+</tr>
+</tbody>
+</table>
+<h1 id="4-练习实例">4. 练习实例</h1>
+<pre><code>import turtle
+
+def main():
+    turtle.pensize(3)
+    turtle.penup()
+    turtle.goto(-200,-50)
+    turtle.pendown()
+    turtle.begin_fill()
+    turtle.color(&quot;red&quot;)
+    turtle.circle(40, steps=3)
+    turtle.end_fill()
+
+
+    turtle.penup()
+    turtle.goto(-100,-50)
+    turtle.pendown()
+    turtle.begin_fill()
+    turtle.color(&quot;blue&quot;)
+    turtle.circle(40, steps=4)
+    turtle.end_fill()
+
+    turtle.penup()
+    turtle.goto(0,-50)
+    turtle.pendown()
+    turtle.begin_fill()
+    turtle.color(&quot;green&quot;)
+    turtle.circle(40, steps=5)
+    turtle.end_fill()
+
+    turtle.penup()
+    turtle.goto(100,-50)
+    turtle.pendown()
+    turtle.begin_fill()
+    turtle.color(&quot;yellow&quot;)
+    turtle.circle(40, steps=6)
+    turtle.end_fill()
+
+    turtle.penup()
+    turtle.goto(200,-50)
+    turtle.pendown()
+    turtle.begin_fill()
+    turtle.color(&quot;purple&quot;)
+    turtle.circle(40)
+    turtle.end_fill()
+
+    turtle.color(&quot;green&quot;)
+    turtle.penup()
+    turtle.goto(-100,50)
+    turtle.pendown()
+    turtle.write((&quot;Cool Colorful shapes&quot;),
+        font = (&quot;Times&quot;, 18, &quot;bold&quot;))
+    turtle.hideturtle()
+
+    turtle.done
+
+if __name__ == '__main__':
+    main()
+
+</code></pre>
+<p>效果👇👇👇</p>
+<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/py%E6%BC%94%E7%A4%BA.gif" alt="演示" loading="lazy"></figure>
+
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
+
+            <section class="related section">
+              
+              <article class="prev grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%B0%81%E9%9D%A2/%E5%8D%A1%E9%80%9A%E8%B5%9B%E8%BD%A6.jpg');"></div>
+                 <a href="https://Mrshu1991.github.io/post/ppt-xin-ni-tai-xue-xi-bi-ji/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-03-14">2020-03-14</time>
+                  <h4 class="title white no-margin">PPT新拟态学习笔记</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://Mrshu1991.github.io/media/images/left-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E8%BF%B7%E9%9B%BE%E6%A3%AE%E6%9E%97.jpg');"></div>
+                 <a href="https://Mrshu1991.github.io/post/chang-yong-han-shu-gong-shi-da-quan/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-03-03">2020-03-03</time>
+                  <h4 class="title white no-margin">常用函数公式</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://Mrshu1991.github.io/media/images/right-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
+            
+              <div id="comments" class="bg-white hosted ">
+                
+                  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+<div class="clear"></div>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: 'ad380bd46cb8676f8911',
+    clientSecret: '720b0a4d4bc1a93380552bed971f9f3037f25f3a',
+    repo: 'Mrshu1991.github.io',
+    owner: 'Mrshu1991',
+    admin: ['Mrshu1991'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+
+                
+                
+              </div>
+            
+
+            </div>
+          </div>
+      </main>
+
+          <footer id="footer" class="grid-container">
+        <div class="widgets row gradient-effect">
+            <div class="default-sidebar border-effect">
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
+                  <h4 class="widget-title title white bordered">最新文章</h4>
+                  
+                  
+                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Mrshu1991.github.io/post/ce-shi-wen-zhang/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-14">2020-04-14</time>
+                      <h4 class="title usmall">
+                        <a href="https://Mrshu1991.github.io/post/ce-shi-wen-zhang/">测试文章</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Mrshu1991.github.io/post/typecho-chang-jian-wen-ti-jie-jue-fang-an-hui-zong/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-10">2020-04-10</time>
+                      <h4 class="title usmall">
+                        <a href="https://Mrshu1991.github.io/post/typecho-chang-jian-wen-ti-jie-jue-fang-an-hui-zong/">Typecho常见问题解决方案汇总</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Mrshu1991.github.io/post/rang-ppt-tu-biao-dong-qi-lai/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%B0%81%E9%9D%A2/%E6%A8%B1%E8%8A%B1.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-08">2020-04-08</time>
+                      <h4 class="title usmall">
+                        <a href="https://Mrshu1991.github.io/post/rang-ppt-tu-biao-dong-qi-lai/">让PPT图表动起来</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
+                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <div class="tagcloud">
+                    
+                      <a href="https://Mrshu1991.github.io/tag/kkTBWSgoE/" class="ctag ctag-0 ctag-kkTBWSgoE" aria-label="">PPT技巧</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/T8PGP3uYf/" class="ctag ctag-1 ctag-T8PGP3uYf" aria-label="">Excel技巧</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/KwZTe8t57/" class="ctag ctag-2 ctag-KwZTe8t57" aria-label="">Markdown</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/ayx94ljoQ/" class="ctag ctag-3 ctag-ayx94ljoQ" aria-label="">Word技巧</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/hqhtlGFWYu/" class="ctag ctag-4 ctag-hqhtlGFWYu" aria-label="">人力资源知识库</a>
+                    
+                      <a href="https://Mrshu1991.github.io/tag/0HusjuIufS/" class="ctag ctag-5 ctag-0HusjuIufS" aria-label="">Gridea</a>
+                    
+                  </div>
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
+                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <div class="avatar">
+                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://Mrshu1991.github.io/images/avatar.png);"></span></a>
+                  </div>
+                  <div class="info">
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">keanu</a></h4>
+                    <p class="founder">与其思索人生有何意义，
+不如去做些让人生有意义的事。</p>
+                    <div class="social">
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div> 
+                  </div>
+                  <div class="clear"></div>
+                  </section>
+              </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="logo">
+          <a href="https://Mrshu1991.github.io"><img src="/media/images/gridea.png" alt=""></a>
+        </div>
+        <p class="published border-effect">
+          ©2019 共 24 篇文章
+          <br/>
+          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+        </p>
+        
+        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
+          <i class="fa fa-arrow"></i>
+        </a>
+    </footer>
+    
+    <div class="clear"></div>
+
+        
+
+      
+    <script src="https://Mrshu1991.github.io/media/js/functions-post.js"></script>
+
+    </div>
+    <!-- end: #wrapper -->
+  </body>
+</html>
