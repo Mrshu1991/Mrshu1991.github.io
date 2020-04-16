@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mrshu1991.github.io</id>
     <title>keanu</title>
-    <updated>2020-04-16T13:26:11.626Z</updated>
+    <updated>2020-04-16T15:37:28.463Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mrshu1991.github.io"/>
     <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
@@ -11,6 +11,62 @@
     <logo>https://Mrshu1991.github.io/images/avatar.png</logo>
     <icon>https://Mrshu1991.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, keanu</rights>
+    <entry>
+        <title type="html"><![CDATA[Markdown高级语法]]></title>
+        <id>https://Mrshu1991.github.io/post/markdown-gao-ji-yu-fa/</id>
+        <link href="https://Mrshu1991.github.io/post/markdown-gao-ji-yu-fa/">
+        </link>
+        <updated>2020-04-16T14:50:05.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="1-页面内跳转">1. 页面内跳转</h1>
+<pre><code>[4.页面内跳转](#jump)
+
+&lt;span id=&quot;jump&quot;&gt;**4.页面内跳转**&lt;/span&gt;
+</code></pre>
+<p>📣:第一行为起点，第二行为终点；一篇文章中，不能使用同一个ID，否则只能跳转到识别的第一个ID。</p>
+<hr>
+<h1 id="2-添加背景色">2. 添加背景色</h1>
+<pre><code>&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=blue&gt;我是背景色&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+</code></pre>
+<table><tr><td bgcolor=blue>我是背景色</td></tr></table>
+<p>📣:不仅可以给文字添加背景色，还可以嵌套在其他语法外面使用，如表格。</p>
+<pre><code>&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=yellow&gt;
+
+姓名|性别|年龄
+---|---|---|
+李白|男|18
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+</code></pre>
+<table><tr><td bgcolor=yellow>
+<table>
+<thead>
+<tr>
+<th>姓名</th>
+<th>性别</th>
+<th>年龄</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>李白</td>
+<td>男</td>
+<td>18</td>
+</tr>
+</tbody>
+</table>
+</td></tr></table>
+<h1 id="3-latex公式">3. LaTeX公式</h1>
+<p>1️⃣ 行内公式<code>$</code></p>
+<pre><code>这是一个我看不懂的方程式$E=mc^2$。
+</code></pre>
+<p>这是一个我看不懂的方程式<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E=mc^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord mathdefault">m</span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>。</p>
+<p>2️⃣ 整行公式<code>$$</code></p>
+<pre><code>$$E=mc^2$$
+</code></pre>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E=mc^2
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8641079999999999em;vertical-align:0em;"></span><span class="mord mathdefault">m</span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[让PPT图表动起来]]></title>
         <id>https://Mrshu1991.github.io/post/rang-ppt-tu-biao-dong-qi-lai/</id>
@@ -390,83 +446,6 @@ if __name__ == '__main__':
 </code></pre>
 <p>效果👇👇👇</p>
 <figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/py%E6%BC%94%E7%A4%BA.gif" alt="演示" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[常用函数公式]]></title>
-        <id>https://Mrshu1991.github.io/post/chang-yong-han-shu-gong-shi-da-quan/</id>
-        <link href="https://Mrshu1991.github.io/post/chang-yong-han-shu-gong-shi-da-quan/">
-        </link>
-        <updated>2020-03-03T02:00:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>🔔🔔🔔❗️❗️❗️<br>
-<mark>函数公式种所有的符号，如()  ,  &quot;&quot;等，需确保输入法在英文模式。</mark></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>🔔🔔🔔❗️❗️❗️<br>
-<mark>函数公式种所有的符号，如()  ,  &quot;&quot;等，需确保输入法在英文模式。</mark></p>
-<!-- more -->
-<h1 id="tabletrtd-bgcolorskyblue1-数字取整tdtrtable"><table><tr><td bgcolor=#skyblue>1. 数字取整</td></tr></table></h1>
-<p>📣    非四舍五入，而是直接去小数位取整数。</p>
-<p>✏️： =int(数值)</p>
-<h1 id="tabletrtd-bgcolorskyblue2-四舍五入tdtrtable"><table><tr><td bgcolor=#skyblue>2. 四舍五入</td></tr></table></h1>
-<p>✏️： =round(数字,小数位数)</p>
-<h1 id="tabletrtd-bgcolorskyblue3-计算2个数值之间的数字个数tdtrtable"><table><tr><td bgcolor=#skyblue>3. 计算2个数值之间的数字个数</td></tr></table></h1>
-<p>📣 可应用于统计某个年龄段内的员工人数；</p>
-<p>📺 示例图：</p>
-<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/FRE.jpg" alt="fre" loading="lazy"></figure>
-<p>✏️ : =FREQUENCY(D3:D9,{40,19})</p>
-<p>🔔: 数组中，数值大的写在前面。</p>
-<h1 id="tabletrtd-bgcolorskyblue4-单多条件统计tdtrtable"><table><tr><td bgcolor=#skyblue>4. 单（多）条件统计</td></tr></table></h1>
-<p>📺 示例图：</p>
-<figure data-type="image" tabindex="2"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/coutif.jpg" alt="countif" loading="lazy"></figure>
-<p>✏️ : 单条件统计=COUNTIF(C:C,&quot;男&quot;)<br>
-✏️ : 多条件统计=COUNTIFS(C:C,&quot;女&quot;,D:D,&quot;&lt;40&quot;)</p>
-<h1 id="tabletrtd-bgcolorskyblue5-统计不重复单元格个数tdtrtable"><table><tr><td bgcolor=#skyblue>5. 统计不重复单元格个数</td></tr></table></h1>
-<p>📣 可应用于统计不重复的员工人数；统计不重复产品等</p>
-<p>📺 示例图：</p>
-<figure data-type="image" tabindex="3"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BB%9F%E8%AE%A1%E4%B8%8D%E9%87%8D%E5%A4%8D%E5%8D%95%E5%85%83%E6%A0%BC.jpg" alt="不重复单元格个数" loading="lazy"></figure>
-<p>✏️ : =SUMPRODUCT(1/COUNTIF(B3:B16,B3:B16))<br>
-<mark>用1分别除以每个人出现的次数，再将结果相加。</mark></p>
-<h1 id="tabletrtd-bgcolorskyblue6-单多条件求平均值tdtrtable"><table><tr><td bgcolor=#skyblue>6. 单（多）条件求平均值</td></tr></table></h1>
-<p>📺 示例图：</p>
-<figure data-type="image" tabindex="4"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/aver.jpg" alt="aver" loading="lazy"></figure>
-<p>✏️ : 单条件求平均值=AVERAGEIF(C:C,&quot;男&quot;,E:E)<br>
-✏️ : 多条件求平均值=AVERAGEIFS(E:E,C:C,&quot;女&quot;,D:D,&quot;&lt;40&quot;)</p>
-<h1 id="tabletrtd-bgcolorskyblue7-单多条件求和tdtrtable"><table><tr><td bgcolor=#skyblue>7. 单（多）条件求和</td></tr></table></h1>
-<p>📺 示例图：</p>
-<figure data-type="image" tabindex="5"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/sumif.jpg" alt="sumif" loading="lazy"></figure>
-<p>✏️  单条件求和=SUMIF(C:C,&quot;男&quot;,E:E)<br>
-✏️  多条件求和=SUMIFS(E:E,C:C,&quot;男&quot;,D:D,&quot;&gt;30&quot;)</p>
-<h1 id="tabletrtd-bgcolorskyblue8-按日期求和tdtrtable"><table><tr><td bgcolor=#skyblue>8. 按日期求和</td></tr></table></h1>
-<figure data-type="image" tabindex="6"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%A0%B9%E6%8D%AE%E6%97%A5%E6%9C%9F%E6%B1%82%E5%92%8C.jpg" alt="按日期求和" loading="lazy"></figure>
-<p>✏️  =SUMPRODUCT((MONTH(D3:D9)=3)*(C3:C9=&quot;男&quot;)*F3:F9)</p>
-<p>📢  <mark>sumproduct 可用作统计，条件求和。</mark></p>
-<h1 id="tabletrtd-bgcolorskyblue9-单多条件查找tdtrtable"><table><tr><td bgcolor=#skyblue>9. 单（多）条件查找</td></tr></table></h1>
-<p>📺 示例图：</p>
-<figure data-type="image" tabindex="7"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/index.png" alt="index" loading="lazy"></figure>
-<p>✏️  =INDEX(E3:E9,MATCH(H2,B3:B9,0),MATCH(H3,C3:C9,0))</p>
-<p>📢  由于<code>vlookup</code>查找匹配有诸多限制，而<code>index+match</code>双剑合璧更为精准，且不受限制。</p>
-<h1 id="tabletrtd-bgcolorskyblue10-根据字符判断tdtrtable"><table><tr><td bgcolor=#skyblue>10. 根据字符判断</td></tr></table></h1>
-<p>📺 示例图：</p>
-<figure data-type="image" tabindex="8"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%A0%B9%E6%8D%AE%E5%AD%97%E7%AC%A6%E5%88%A4%E6%96%AD.jpg" alt="根据字符判断" loading="lazy"></figure>
-<p>✏️  =IF(COUNT(FIND(&quot;洪山区&quot;,E3))=0,&quot;否&quot;,&quot;是&quot;)</p>
-<p>📢  延申tips：如示例图，需要统计洪山区的人数时，可先用此公式判断是否属于洪山区，然后统计结果为<code>是</code>的有多少个就可以了；</p>
-<h1 id="tabletrtd-bgcolorskyblue11-字符数字合并tdtrtable"><table><tr><td bgcolor=#skyblue>11. 字符（数字）合并</td></tr></table></h1>
-<p>📺 示例图：</p>
-<figure data-type="image" tabindex="9"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/phon.jpg" alt="字符合并" loading="lazy"></figure>
-<p>✏️  =PHONETIC(A3:E3)</p>
-<p>📢  不适用于数字。</p>
-<p>📝  <mark>延申Tips：</mark></p>
-<p>1️⃣  合并字符并添加分隔符：</p>
-<figure data-type="image" tabindex="10"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%AD%97%E7%AC%A6%E5%90%88%E5%B9%B6.gif" alt="合并" loading="lazy"></figure>
-<p>✏️  =PHONETIC(B2:C5)</p>
-<p>2️⃣  数字合并：</p>
-<figure data-type="image" tabindex="11"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%95%B0%E5%AD%97%E5%90%88%E5%B9%B6.gif" alt="数字合并" loading="lazy"></figure>
-<p>✏️  =TEXTJOIN(&quot;-&quot;,,B2:E8)</p>
-<h1 id="tabletrtd-bgcolorskyblue12-根据区间取值tdtrtable"><table><tr><td bgcolor=#skyblue>12. 根据区间取值</td></tr></table></h1>
-<figure data-type="image" tabindex="12"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%8C%BA%E9%97%B4%E5%8F%96%E5%80%BC.jpg" alt="区间取值" loading="lazy"></figure>
-<p>✏️  =VLOOKUP(C9,B$4:C$6,2)</p>
-<p>✏️ =LOOKUP(C10,B4:B6,C4:C6)</p>
-<p>📢  如示例图，在提成标准区域<code>销售量</code>那一列的数字需保证是升序。</p>
 ]]></content>
     </entry>
 </feed>

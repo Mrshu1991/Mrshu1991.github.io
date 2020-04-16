@@ -1,8 +1,8 @@
 <html>
   <head>
-  <meta charset="utf-8" />
+    <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>标签列表 | keanu</title>
+<title>Markdown高级语法 | keanu</title>
 <meta name="description" content="与其思索人生有何意义，
 不如去做些让人生有意义的事。" />
 <link rel="shortcut icon" href="https://Mrshu1991.github.io/favicon.ico">
@@ -15,11 +15,18 @@
 <script src="https://Mrshu1991.github.io/media/js/view-image.min.js"></script>
 <script src="https://Mrshu1991.github.io/media/js/jquery.magnific-popup.min.js"></script>
 <script src="https://Mrshu1991.github.io/media/js/functions.js"></script>
+    <meta name="referrer" content="never">
+    <meta name="description" content="1. 页面内跳转
+[4.页面内跳转](#jump)
+
+&lt;span id=&quot;jump&quot;&gt;**4.页面内跳转**&lt;/span&gt;
+
+📣:第一行为起点，第二行为终点；一篇文章中，不能使用同一个ID，否则..." />
+    <meta name="keywords" content="" />
+    <script src="https://Mrshu1991.github.io/media/js/waterfall.min.js"></script>
+    <script src="https://Mrshu1991.github.io/media/js/prism.min.js"></script>
   </head>
   <body>
-    <!-- start: #wrapper -->
-    <div class="wrapper">
-      
             <header id="header" class="grid-container">
         <!-- start: .menu-wrapper -->
         <div class="menu-mobile"> 
@@ -80,38 +87,139 @@
         </div>
       </div>
 
-      <main id="tags" class="main fullcover no-sidebar content">
-        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
+
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('/media/images/gridea.jpg');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2020-04-16"><i class="fa fa-calendar"></i><span class="lately">1 小时前</span></time>
+              
+              <a href="https://Mrshu1991.github.io/post/markdown-gao-ji-yu-fa/#comments" class="comments meta-info" title="">
+                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/markdown-gao-ji-yu-fa/"> </span>
+              </a>
+              <span id="/markdown-gao-ji-yu-fa/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
+              
+            </div>
+            <div class="info">
+              <div class="tags ">
+                
+              </div>
+              <h1 class="title ularge white bold">Markdown高级语法</h1>
+            </div>
+          </div>
+        </div>  
+
         <div class="epcl-page-wrapper">
-          <div class="left-content grid-70 np-mobile widget_epcl_related_articles">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <h1 id="1-页面内跳转">1. 页面内跳转</h1>
+<pre><code>[4.页面内跳转](#jump)
 
-          <div class="widget_tag_cloud tagcloud">
-            
-              <a href="https://Mrshu1991.github.io/tag/kkTBWSgoE/" class="ctag ctag-0 ctag-kkTBWSgoE" aria-label="">PPT技巧</a>
-            
-              <a href="https://Mrshu1991.github.io/tag/8fhm5nwYd/" class="ctag ctag-1 ctag-8fhm5nwYd" aria-label="">python</a>
-            
-              <a href="https://Mrshu1991.github.io/tag/T8PGP3uYf/" class="ctag ctag-2 ctag-T8PGP3uYf" aria-label="">Excel技巧</a>
-            
-              <a href="https://Mrshu1991.github.io/tag/7UBTwvbmq/" class="ctag ctag-3 ctag-7UBTwvbmq" aria-label="">工具</a>
-            
-              <a href="https://Mrshu1991.github.io/tag/KwZTe8t57/" class="ctag ctag-4 ctag-KwZTe8t57" aria-label="">Markdown</a>
-            
-              <a href="https://Mrshu1991.github.io/tag/ayx94ljoQ/" class="ctag ctag-5 ctag-ayx94ljoQ" aria-label="">Word技巧</a>
-            
-              <a href="https://Mrshu1991.github.io/tag/hqhtlGFWYu/" class="ctag ctag-6 ctag-hqhtlGFWYu" aria-label="">人力资源知识库</a>
-            
-              <a href="https://Mrshu1991.github.io/tag/0HusjuIufS/" class="ctag ctag-7 ctag-0HusjuIufS" aria-label="">Gridea</a>
-            
-          </div>
-        </div>
+&lt;span id=&quot;jump&quot;&gt;**4.页面内跳转**&lt;/span&gt;
+</code></pre>
+<p>📣:第一行为起点，第二行为终点；一篇文章中，不能使用同一个ID，否则只能跳转到识别的第一个ID。</p>
+<hr>
+<h1 id="2-添加背景色">2. 添加背景色</h1>
+<pre><code>&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=blue&gt;我是背景色&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+</code></pre>
+<table><tr><td bgcolor=blue>我是背景色</td></tr></table>
+<p>📣:不仅可以给文字添加背景色，还可以嵌套在其他语法外面使用，如表格。</p>
+<pre><code>&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=yellow&gt;
 
-        </div>
+姓名|性别|年龄
+---|---|---|
+李白|男|18
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+</code></pre>
+<table><tr><td bgcolor=yellow>
+<table>
+<thead>
+<tr>
+<th>姓名</th>
+<th>性别</th>
+<th>年龄</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>李白</td>
+<td>男</td>
+<td>18</td>
+</tr>
+</tbody>
+</table>
+</td></tr></table>
+<h1 id="3-latex公式">3. LaTeX公式</h1>
+<p>1️⃣ 行内公式<code>$</code></p>
+<pre><code>这是一个我看不懂的方程式$E=mc^2$。
+</code></pre>
+<p>这是一个我看不懂的方程式<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E=mc^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord mathdefault">m</span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>。</p>
+<p>2️⃣ 整行公式<code>$$</code></p>
+<pre><code>$$E=mc^2$$
+</code></pre>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E=mc^2
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8641079999999999em;vertical-align:0em;"></span><span class="mord mathdefault">m</span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></p>
+
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
+
+            <section class="related section">
+              
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%B0%81%E9%9D%A2/%E6%A8%B1%E8%8A%B1.jpg');"></div>
+                 <a href="https://Mrshu1991.github.io/post/rang-ppt-tu-biao-dong-qi-lai/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-04-08">2020-04-08</time>
+                  <h4 class="title white no-margin">让PPT图表动起来</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://Mrshu1991.github.io/media/images/right-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
+            
+              <div id="comments" class="bg-white hosted ">
+                <div class="clear"></div>
+<script>
+jQuery(document).ready(function($){
+    $('.vemoji-btn').text('😀');
+    $("#comments").on('click', 'span.vat',function(){
+        $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
+        $('textarea#veditor').focus();
+    })
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+            if ($(window.location.hash).length) {
+                $('html, body').animate({scrollTop: $(window.location.hash).offset().top-200}, 600);
+                clearInterval(checkExist);
+            }
+        }, 100);
+    }
+})
+</script>
+
+              </div>
+            
+
+            </div>
           </div>
-        </div>
       </main>
 
-        <footer id="footer" class="grid-container">
+          <footer id="footer" class="grid-container">
         <div class="widgets row gradient-effect">
             <div class="default-sidebar border-effect">
               <div class="grid-33 tablet-grid-50 mobile-grid-100">
@@ -301,6 +409,9 @@
     })
 </script>
     
+
+      
+    <script src="https://Mrshu1991.github.io/media/js/functions-post.js"></script>
 
     </div>
     <!-- end: #wrapper -->
