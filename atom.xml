@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mrshu1991.github.io</id>
     <title>keanu</title>
-    <updated>2020-04-17T06:39:40.070Z</updated>
+    <updated>2020-04-17T08:02:27.812Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mrshu1991.github.io"/>
     <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
@@ -11,6 +11,71 @@
     <logo>https://Mrshu1991.github.io/images/avatar.png</logo>
     <icon>https://Mrshu1991.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, keanu</rights>
+    <entry>
+        <title type="html"><![CDATA[关于试用期期限的政策解读]]></title>
+        <id>https://Mrshu1991.github.io/post/guan-yu-shi-yong-qi-qi-xian-de-zheng-ce-jie-du/</id>
+        <link href="https://Mrshu1991.github.io/post/guan-yu-shi-yong-qi-qi-xian-de-zheng-ce-jie-du/">
+        </link>
+        <updated>2020-04-17T06:55:49.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="试用期期限的制定可参考劳动合同法第十九条">试用期期限的制定可参考《劳动合同法》第十九条：</h1>
+<blockquote>
+<ul>
+<li>劳动合同期限三个月以上不满一年的，试用期不得超过一个月；</li>
+<li>劳动合同期限一年以上不满三年的，试用期不得超过二个月；</li>
+<li>三年以上固定期限和无固定期限的劳动合同，试用期不得超过六个月。</li>
+<li>同一用人单位与同一劳动者只能约定一次试用期。</li>
+<li>以完成一定工作任务为期限的劳动合同或者劳动合同期限不满三个月的，不得约定试用期。</li>
+<li>试用期包含在劳动合同期限内。劳动合同仅约定试用期的，试用期不成立，该期限为劳动合同期限。</li>
+</ul>
+</blockquote>
+<hr>
+<h1 id="政策解读">政策解读📝：</h1>
+<ol>
+<li>
+<p>以上条例中的“三个月以上”指：三个月及三个月以上。“一年以上”和“三年以上”做同等理解；</p>
+</li>
+<li>
+<p>如某员工在19年入职该单位，约定了一次试用期。年底因故离职，于20年返回该公司重新入职后，无需也不能再次约定试用期，就算他换了一个从未接触过的工作岗位；</p>
+</li>
+<li>
+<p>合同期限不足3个月，不能约定试用期；</p>
+</li>
+<li>
+<p>某单位需要招聘一名临时的技术人员，帮助公司进行网站的前期建设，网站建设完毕即合同到期。此类型的，以完成一定工作任务为期限的合同是无法约定试用期的；</p>
+</li>
+<li>
+<p>试用期是根据企业和劳动者之间签订的劳动合同的期限来确定的，所以单独的试用期合同是不成立的，是违规的。</p>
+</li>
+</ol>
+<hr>
+<h1 id="不符合规定的试用期应该如何进行赔偿">不符合规定的试用期应该如何进行赔偿？</h1>
+<p>📚 <strong>案例</strong>：<br>
+  小王2019年入职某公司，签订了2年的劳动合同，公司与其签订了6个月试用期。小王在转正1个月之后，因家里有亲人病重需要照顾就辞职回家了。3个月后，小王处理完个人事宜之后，返回该公司再次签订3年的劳动合同，本次试用期约定了3个月。在工作了4个月之后，公司觉得小王不符合任用要求，与其解除了劳动合同。事后小王觉得不公，在咨询了律师后了解到公司违规约定了试用期，决定仲裁。</p>
+<p>补充信息：</p>
+<ul>
+<li>第一次合同薪资情况：试用期3000元/月；转正4000元/月</li>
+<li>第二次合同薪资情况：试用期3500元/月；转正4300元/月</li>
+<li>公司未拖欠工资。</li>
+</ul>
+<p>📝 <strong>分析</strong></p>
+<p>1️⃣ <em><strong>该公司总共违规约定多久的试用期</strong></em>？</p>
+<p>  <mark>该公司违规约定试用期7个月</mark>。</p>
+<ul>
+<li>初次入职签订的是2年的合同，试用期不得超过2个月，第一次签订合同时公司多约定4个月试用期；</li>
+<li>根据“同一用人单位与同一劳动者只能约定一次试用期”，第二次签订合同时约定的3个月试用期均属违规；</li>
+</ul>
+<p>2️⃣ <em><strong>如何计算赔偿</strong></em>？</p>
+<p>   参考《劳动合同法》第八十三条：</p>
+<blockquote>
+<p>用人单位违反本法规定与劳动者约定试用期的,由劳动行政部门责令改正;违法约定的试用期已经履行的,由用人单位以劳动者<mark>试用期满月工资为标准</mark>,按已经履行的超过法定试用期的期间向劳动者支付赔偿金。</p>
+</blockquote>
+<ul>
+<li>违规约定的7个月试用期期间的工资需按照合同约定的试用期满后的正式工资发放，如之前已经按试用期的进行了发放，需要补齐差额；</li>
+<li>违规约定的7个月试用期需要按照试用期满后的工资为标准进行赔偿。</li>
+</ul>
+<p>实际应支付赔偿金：4000×4+4300×3+(4000-3000)×4+(4300-3500)*3=35300。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Markdown高级语法]]></title>
         <id>https://Mrshu1991.github.io/post/markdown-gao-ji-yu-fa/</id>
@@ -69,7 +134,6 @@
 <pre><code>&lt;iframe src=&quot;https://img-blog.csdnimg.cn/20191007225237660.gif&quot; width=&quot;350&quot; height=&quot;500&quot;&gt;
 </code></pre>
 <iframe src="https://img-blog.csdnimg.cn/20191007225237660.gif" width="350" height="500">
-<iframe border="0" marginwidth="0" marginheight="0" src="http://music.163.com/outchain/player?type=1&id=77700&auto=1&height=430" width="330" frameborder="no" height="450">
 ]]></content>
     </entry>
     <entry>
@@ -236,221 +300,6 @@
 <hr>
 <p><mark>练习作品展示</mark>💻</p>
 <figure data-type="image" tabindex="5"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/soft3.png" alt="作品展示" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Python学习笔记-Turtle库]]></title>
-        <id>https://Mrshu1991.github.io/post/python-xue-xi-bi-ji-turtle-ku/</id>
-        <link href="https://Mrshu1991.github.io/post/python-xue-xi-bi-ji-turtle-ku/">
-        </link>
-        <updated>2020-03-11T04:56:11.000Z</updated>
-        <summary type="html"><![CDATA[<p>Turtle库又名海龟库，为Python内置图形化模块。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>Turtle库又名海龟库，为Python内置图形化模块。</p>
-<!-- more -->
-<h1 id="1-控制画笔绘制状态">1. 控制画笔绘制状态</h1>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">代码</th>
-<th style="text-align:center">含义</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">pendown</td>
-<td style="text-align:center">放下画地，移动到制定点后继续绘制</td>
-</tr>
-<tr>
-<td style="text-align:center">penup</td>
-<td style="text-align:center">提起画笔，用于另起一个地方绘制时用，与pendown()配对使用</td>
-</tr>
-<tr>
-<td style="text-align:center">penseze</td>
-<td style="text-align:center">设置画笔线条的粗细</td>
-</tr>
-</tbody>
-</table>
-<h1 id="2-控制画笔运动">2. 控制画笔运动</h1>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">代码</th>
-<th style="text-align:center">含义</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">forward</td>
-<td style="text-align:center">沿着当前方向前进指定距离</td>
-</tr>
-<tr>
-<td style="text-align:center">backward</td>
-<td style="text-align:center">沿着当前相反方向后退指定距离</td>
-</tr>
-<tr>
-<td style="text-align:center">right</td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td style="text-align:center">left</td>
-<td style="text-align:center">向左旋转一定角度</td>
-</tr>
-<tr>
-<td style="text-align:center">goto</td>
-<td style="text-align:center">移动到绝对坐标处</td>
-</tr>
-<tr>
-<td style="text-align:center">setx</td>
-<td style="text-align:center">将当前X轴移动到指定位置</td>
-</tr>
-<tr>
-<td style="text-align:center">sety</td>
-<td style="text-align:center">将当前y轴移动到指定位置</td>
-</tr>
-<tr>
-<td style="text-align:center">setheading</td>
-<td style="text-align:center">设置当前朝向为某角度</td>
-</tr>
-<tr>
-<td style="text-align:center">home</td>
-<td style="text-align:center">设置当前画笔位置为远点，朝向东</td>
-</tr>
-<tr>
-<td style="text-align:center">cricle</td>
-<td style="text-align:center">绘制一个指定半径，角度以及步骤的圆圈</td>
-</tr>
-<tr>
-<td style="text-align:center">dot</td>
-<td style="text-align:center">绘制一个指定直径和颜色的圆点</td>
-</tr>
-<tr>
-<td style="text-align:center">undo</td>
-<td style="text-align:center">撤销画笔最后一步动作</td>
-</tr>
-<tr>
-<td style="text-align:center">speed</td>
-<td style="text-align:center">设置画笔的绘制速度，参会为0-10之间</td>
-</tr>
-</tbody>
-</table>
-<h1 id="3-颜色和字体">3. 颜色和字体</h1>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">代码</th>
-<th style="text-align:center">含义</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">color</td>
-<td style="text-align:center">设置画笔的颜色</td>
-</tr>
-<tr>
-<td style="text-align:center">begin_fill</td>
-<td style="text-align:center">填充图形前，调用该方法</td>
-</tr>
-<tr>
-<td style="text-align:center">end_fill</td>
-<td style="text-align:center">填充图形结束</td>
-</tr>
-<tr>
-<td style="text-align:center">filling</td>
-<td style="text-align:center">返回填充的状态，True为填充，False为未填充</td>
-</tr>
-<tr>
-<td style="text-align:center">clear</td>
-<td style="text-align:center">清空当前窗口，但不改变当前画笔的位置</td>
-</tr>
-<tr>
-<td style="text-align:center">reset</td>
-<td style="text-align:center">清空当前窗口，并重置位置等状态为默认值</td>
-</tr>
-<tr>
-<td style="text-align:center">screensize</td>
-<td style="text-align:center">设置画布的长和宽</td>
-</tr>
-<tr>
-<td style="text-align:center">hideturtle</td>
-<td style="text-align:center">隐藏画笔的turtle形状</td>
-</tr>
-<tr>
-<td style="text-align:center">showturtle</td>
-<td style="text-align:center">显示画笔的turtle形状</td>
-</tr>
-<tr>
-<td style="text-align:center">isvisible</td>
-<td style="text-align:center">如果turtle可见，则返回True</td>
-</tr>
-<tr>
-<td style="text-align:center">wirte</td>
-<td style="text-align:center">输出font字体的字符串</td>
-</tr>
-</tbody>
-</table>
-<h1 id="4-练习实例">4. 练习实例</h1>
-<pre><code>import turtle
-
-def main():
-    turtle.pensize(3)
-    turtle.penup()
-    turtle.goto(-200,-50)
-    turtle.pendown()
-    turtle.begin_fill()
-    turtle.color(&quot;red&quot;)
-    turtle.circle(40, steps=3)
-    turtle.end_fill()
-
-
-    turtle.penup()
-    turtle.goto(-100,-50)
-    turtle.pendown()
-    turtle.begin_fill()
-    turtle.color(&quot;blue&quot;)
-    turtle.circle(40, steps=4)
-    turtle.end_fill()
-
-    turtle.penup()
-    turtle.goto(0,-50)
-    turtle.pendown()
-    turtle.begin_fill()
-    turtle.color(&quot;green&quot;)
-    turtle.circle(40, steps=5)
-    turtle.end_fill()
-
-    turtle.penup()
-    turtle.goto(100,-50)
-    turtle.pendown()
-    turtle.begin_fill()
-    turtle.color(&quot;yellow&quot;)
-    turtle.circle(40, steps=6)
-    turtle.end_fill()
-
-    turtle.penup()
-    turtle.goto(200,-50)
-    turtle.pendown()
-    turtle.begin_fill()
-    turtle.color(&quot;purple&quot;)
-    turtle.circle(40)
-    turtle.end_fill()
-
-    turtle.color(&quot;green&quot;)
-    turtle.penup()
-    turtle.goto(-100,50)
-    turtle.pendown()
-    turtle.write((&quot;Cool Colorful shapes&quot;),
-        font = (&quot;Times&quot;, 18, &quot;bold&quot;))
-    turtle.hideturtle()
-
-    turtle.done
-
-if __name__ == '__main__':
-    main()
-
-</code></pre>
-<p>效果👇👇👇</p>
-<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/py%E6%BC%94%E7%A4%BA.gif" alt="演示" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
