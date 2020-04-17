@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mrshu1991.github.io</id>
     <title>keanu</title>
-    <updated>2020-04-17T08:02:27.812Z</updated>
+    <updated>2020-04-17T13:24:18.979Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mrshu1991.github.io"/>
     <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
@@ -11,6 +11,67 @@
     <logo>https://Mrshu1991.github.io/images/avatar.png</logo>
     <icon>https://Mrshu1991.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, keanu</rights>
+    <entry>
+        <title type="html"><![CDATA[Excel图表美化-组合图]]></title>
+        <id>https://Mrshu1991.github.io/post/excel-tu-biao-mei-hua-zu-he-tu/</id>
+        <link href="https://Mrshu1991.github.io/post/excel-tu-biao-mei-hua-zu-he-tu/">
+        </link>
+        <updated>2020-04-17T12:01:45.000Z</updated>
+        <content type="html"><![CDATA[<p>人狠话不多，直接上一个美化后的组合图表，看一看效果如何。</p>
+<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BB%84%E5%90%88%E5%9B%BE%E7%BE%8E%E5%8C%96.jpg" alt="图例1" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%88%86%E5%89%B2%E7%BA%BF%E7%BA%A2%E8%89%B2.png" alt="分割线" loading="lazy"></figure>
+<p>最为详细的教程，开始！<br>
+👇👇👇</p>
+<h1 id="整理数据源">整理数据源</h1>
+<figure data-type="image" tabindex="3"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BE%8E%E5%8C%961.jpg" alt="1" loading="lazy"></figure>
+<p>📣 整理数据源的时候需要注意以下几点：</p>
+<ul>
+<li>每一个季度数据源的上下区域都需要空一行；</li>
+<li>示例图中的D:G列的数据对应的是各季度3个月份的数据总和；</li>
+</ul>
+<hr>
+<h1 id="插入柱状图">插入柱状图</h1>
+<figure data-type="image" tabindex="4"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BE%8E%E5%8C%962.jpg" alt="2" loading="lazy"></figure>
+<p>📣 注意事项</p>
+<ul>
+<li>数据源不包含表头区域；</li>
+</ul>
+<hr>
+<h1 id="更改图表类型">更改图表类型</h1>
+<figure data-type="image" tabindex="5"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BE%8E%E5%8C%963.gif" alt="3" loading="lazy"></figure>
+<p>操作步骤：</p>
+<ul>
+<li>右击图表，选择【更改图表类型】，选择【组合图】，选择【自定义组合】；</li>
+<li>将月份系列改为【带数据标记的折线图】；</li>
+<li>将其余系列都改为【柱状图】。</li>
+</ul>
+<hr>
+<h1 id="设置图表格式">设置图表格式</h1>
+<figure data-type="image" tabindex="6"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BE%8E%E5%8C%964.gif" alt="4" loading="lazy"></figure>
+<p>操作步骤：</p>
+<ul>
+<li>选中柱形图右击，选择【设置数据系列格式】；</li>
+<li>在【系列选项】内将【系列重叠】调为100%，【间隙宽度】调为0%。</li>
+</ul>
+<hr>
+<h1 id="添加数据标签">添加数据标签</h1>
+<figure data-type="image" tabindex="7"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BE%8E%E5%8C%965.gif" alt="5" loading="lazy"></figure>
+<p>📣 注意事项</p>
+<ul>
+<li>折线图的数据标签需更改为【靠上】；</li>
+<li>给柱状图添加标签时，只添加中间的就好（双击即为选中单独的数据列）。</li>
+</ul>
+<hr>
+<h1 id="删除多余元素修改背景等">删除多余元素，修改背景等</h1>
+<figure data-type="image" tabindex="8"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BB%84%E5%90%88%E5%9B%BE%E7%BE%8E%E5%8C%96.jpg" alt="6" loading="lazy"></figure>
+<p>📣 注意事项</p>
+<ul>
+<li>如果想用图片作为填充背景，最好先虚化或者蒙版处理一下；</li>
+<li>记得修改图表内文字的格式，以免文字、数字显示不清；</li>
+<li>删除冗余元素，保持展示的图表整洁美观。</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于试用期期限的政策解读]]></title>
         <id>https://Mrshu1991.github.io/post/guan-yu-shi-yong-qi-qi-xian-de-zheng-ce-jie-du/</id>
@@ -246,60 +307,6 @@
 <figure data-type="image" tabindex="8"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE8.gif" alt="图例8" loading="lazy"></figure>
 <hr>
 <p><font color=darkblu size=10>学以致用，举一反三</font></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PPT新拟态学习笔记]]></title>
-        <id>https://Mrshu1991.github.io/post/ppt-xin-ni-tai-xue-xi-bi-ji/</id>
-        <link href="https://Mrshu1991.github.io/post/ppt-xin-ni-tai-xue-xi-bi-ji/">
-        </link>
-        <updated>2020-03-14T10:10:32.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="关于新拟态">关于新拟态</h1>
-<p><code>“Neumorphism（新拟态）”</code> <code>&quot;Soft UI（软UI）&quot;，</code></p>
-<p>  2019年11月<a href="https://dribbble.com/alexplyuto">Alexander Plyuto</a>在Dribbble上发布其一系列新拟态作品展示，引发极大的反响。</p>
-<p>  简单说来，新拟态其实就是图形的一种表现形式，通过灯光的原理给图形添加上高光和阴影，赋予图形更多真实立体的效果。</p>
-<p>📺通过以下两张展示图就能很简单的理解什么是<code>新拟态</code>。</p>
-<p><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/soft%201.png" alt="@Dribbble-Alexander Plyuto的作品" loading="lazy"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/soft2.png" alt="@Dribbble-Alexander Plyuto的作品" loading="lazy"></p>
-<p>新拟态的特点：<code>立体</code>，<code>时尚</code>，<code>简约</code></p>
-<h1 id="新拟态的优缺点">新拟态的优缺点</h1>
-<p>这里引用一段公众号<code>叶宏泽演示研究所</code>对新拟态的评价：</p>
-<blockquote>
-<p>  新拟态让设计作品更加具备质感，细节，同时让画面更加有层次感，画面干净， 给人耳目一新的感觉。<br>
-  但是，我们从客观来看，以及结合大众对新拟态的评价，新拟态也有着难以逃脱的弊端：对比度太低，对放映设备有较高要求，若是幻灯片投影，细节难以展现。<br>
-  但也不见得因为这个缺点而让新拟态失去了发展空间，同时也相信过不了多久，能在一场大型发布会见到新拟态的身影！</p>
-</blockquote>
-<h1 id="新拟态制作">新拟态制作</h1>
-<h2 id="1-凸起质感">1. 凸起质感</h2>
-<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E9%87%8D%E5%8F%A0%E6%B3%95.gif" alt="重叠法" loading="lazy"></figure>
-<p>📝步骤：</p>
-<p>① 插入圆角矩形，设置形状格式：去除轮廓，用<code>取色器</code>填充为背景色；<br>
-② 将矩形复制一份，以确保形状完全一致；<br>
-③ 制作高光部分：设置形状效果【阴影】，阴影效果设置为【左上，白色】；<br>
-④ 制作阴影部分：设置形状效果【阴影】，阴影效果设置为【右下，黑色】；<br>
-⑤ 合并2个矩形：选中2个矩形对齐【垂直居中】，【水平居中】，然后组合。</p>
-<h2 id="2-凹陷质感">2. 凹陷质感</h2>
-<figure data-type="image" tabindex="2"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%87%B9%E9%99%B7.png" alt="凹陷" loading="lazy"></figure>
-<p>📝步骤：</p>
-<p>① 插入圆角矩形，用<code>取色器</code>填充为背景色；<br>
-② 边框设置为渐变填充，保留2个渐变锚点。白色渐变位于右下角，调整粗细角度。另一个锚点直接设置为100%透明度；<br>
-③ 设置形状格式【阴影】，选择阴影效果为黑色【内测左上】。</p>
-<h2 id="3-混合质感">3. 混合质感</h2>
-<figure data-type="image" tabindex="3"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%B7%B7%E5%90%88%E8%B4%A8%E6%84%9F.png" alt="混合质感" loading="lazy"></figure>
-<p>📝步骤：</p>
-<p>① 分别制作凸起质感的形状和凹陷质感的形状各一个；<br>
-② 合并，调整对齐【垂直居中】【水平居中】；</p>
-<h2 id="4-文字新拟态">4. 文字新拟态</h2>
-<figure data-type="image" tabindex="4"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BB%83%E4%B9%A0%E4%BD%9C%E5%93%81.png" alt="文字新拟态" loading="lazy"></figure>
-<p>1️⃣ 参照“<a href="#1-%E5%87%B8%E8%B5%B7%E8%B4%A8%E6%84%9F">凸起质感的方法</a>”<br>
-因为是由两段文字重叠的，不利于后期修改，我个人不太建议使用此方法。</p>
-<p>2️⃣  方法2</p>
-<p>📝步骤：</p>
-<p>① 插入文本，修改好字体、大小，建议填充为与背景色搭配的颜色；<br>
-②  选中文本框，右键【设置对象格式】，【形状选项】【效果】选择右下阴影效果，设置为深色填充，调整透明度、大小等参数；<br>
-③【文本选项】【效果】选择左上阴影效果，设置为白色填充，调整透明度、大小等参数；</p>
-<hr>
-<p><mark>练习作品展示</mark>💻</p>
-<figure data-type="image" tabindex="5"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/soft3.png" alt="作品展示" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
