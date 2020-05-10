@@ -81,7 +81,7 @@
       <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
         <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
           <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1587131724520" action="/search/index.html" class="search-form" _lpchecked="1">
+            <form id="gridea-search-form" data-update="1589084086196" action="/search/index.html" class="search-form" _lpchecked="1">
               <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
               <button type="submit" class="submit" aria-label="Submit">
                 <i class="fa fa-search-line"></i>
@@ -96,7 +96,7 @@
         <div class="center content">
           <div class="featured-image cover" style="background-image: url('https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E8%BF%B7%E9%9B%BE%E6%A3%AE%E6%9E%97.jpg');">
             <div class="meta top"> 
-              <time class="meta-info" style="float:left;" datetime="2020-03-03"><i class="fa fa-calendar"></i><span class="lately">1 个月前</span></time>
+              <time class="meta-info" style="float:left;" datetime="2020-03-03"><i class="fa fa-calendar"></i><span class="lately">2 个月前</span></time>
               
               <a href="https://Mrshu1991.github.io/post/chang-yong-han-shu-gong-shi-da-quan/#comments" class="comments meta-info" title="">
                 <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/chang-yong-han-shu-gong-shi-da-quan/"> </span>
@@ -136,6 +136,7 @@
 <li><a href="#tabletrtd-bgcolorskyblue10-%E6%A0%B9%E6%8D%AE%E5%AD%97%E7%AC%A6%E5%88%A4%E6%96%ADtdtrtable"><table><tr><td bgcolor=#skyblue>10. 根据字符判断</td></tr></table></a></li>
 <li><a href="#tabletrtd-bgcolorskyblue11-%E5%AD%97%E7%AC%A6%E6%95%B0%E5%AD%97%E5%90%88%E5%B9%B6tdtrtable"><table><tr><td bgcolor=#skyblue>11. 字符（数字）合并</td></tr></table></a></li>
 <li><a href="#tabletrtd-bgcolorskyblue12-%E6%A0%B9%E6%8D%AE%E5%8C%BA%E9%97%B4%E5%8F%96%E5%80%BCtdtrtable"><table><tr><td bgcolor=#skyblue>12. 根据区间取值</td></tr></table></a></li>
+<li><a href="#tabletrtd-bgcolorskyblue13-%E5%B8%A6%E5%8D%95%E4%BD%8D%E6%95%B0%E6%8D%AE%E6%B1%82%E5%92%8Ctdtrtable"><table><tr><td bgcolor=#skyblue>13. 带单位数据求和</td></tr></table></a></li>
 </ul>
 </p>
 <h1 id="tabletrtd-bgcolorskyblue1-数字取整tdtrtable"><table><tr><td bgcolor=#skyblue>1. 数字取整</td></tr></table></h1>
@@ -201,6 +202,11 @@
 <p>✏️  =VLOOKUP(C9,B$4:C$6,2)</p>
 <p>✏️ =LOOKUP(C10,B4:B6,C4:C6)</p>
 <p>📢  如示例图，在提成标准区域<code>销售量</code>那一列的数字需保证是升序。</p>
+<h1 id="tabletrtd-bgcolorskyblue13-带单位数据求和tdtrtable"><table><tr><td bgcolor=#skyblue>13. 带单位数据求和</td></tr></table></h1>
+<figure data-type="image" tabindex="13"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%B8%A6%E5%8D%95%E4%BD%8D%E6%95%B0%E6%8D%AE%E6%B1%82%E5%92%8C.jpg" alt="带单位求和" loading="lazy"></figure>
+<p>✏️  =SUMPRODUCT(1*SUBSTITUTE(C3:C6,&quot;元&quot;,&quot;&quot;))&amp;&quot;元&quot;</p>
+<p>✏️ =SUM(--LEFT(C3:C6,LEN(C3:C6)-1))&amp;&quot;元&quot;</p>
+<p>📢  <code>=SUM(--LEFT(C3:C6,LEN(C3:C6)-1))&amp;&quot;元&quot;</code>公式写完之后按三键确认结果（ctrl+shift+enter)</p>
 
                 </div>
                 <div class="clear"></div>
