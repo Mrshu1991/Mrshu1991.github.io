@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mrshu1991.github.io</id>
     <title>keanu</title>
-    <updated>2020-05-16T03:52:54.809Z</updated>
+    <updated>2020-05-16T08:12:48.851Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mrshu1991.github.io"/>
     <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
@@ -32,6 +32,12 @@
 自动填充颜色：<code>[红色]&quot;男&quot;;;[蓝色]&quot;女&quot;</code></p>
 <h1 id="3-快速输入第一小队-第二小队此种内容">3. 快速输入”第一小队“、“第二小队”此种内容</h1>
 <p>✒️ 代码：<code>&quot;第&quot;@&quot;军团&quot;</code></p>
+<h1 id="4-输入带单位的数据且不影响函数计算">4. 输入带单位的数据，且不影响函数计算</h1>
+<p>手动输入的带单位的数据，是不能直接求和的，需要用到一些特殊的函数公司来完成。但是通过单元格自定义，就可以让数据都带上单位且不影响计算。</p>
+<p>✒️ 代码：<code>0&quot;元&quot;</code></p>
+<h1 id="5-星号显示录入的数据">5. 星号（*）显示录入的数据</h1>
+<p>✒️ 代码：<code>**</code></p>
+<p>📣  使用此代码和审阅里的工作表保护功能，可以将表格中的部分数据以星号显示，且他人无法查看和修改。</p>
 ]]></content>
     </entry>
     <entry>
