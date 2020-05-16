@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mrshu1991.github.io</id>
     <title>keanu</title>
-    <updated>2020-05-10T04:14:49.588Z</updated>
+    <updated>2020-05-16T03:52:54.809Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mrshu1991.github.io"/>
     <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
@@ -11,6 +11,54 @@
     <logo>https://Mrshu1991.github.io/images/avatar.png</logo>
     <icon>https://Mrshu1991.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, keanu</rights>
+    <entry>
+        <title type="html"><![CDATA[常用单元格格式自定义代码]]></title>
+        <id>https://Mrshu1991.github.io/post/chang-yong-dan-yuan-ge-ge-shi-zi-ding-yi-dai-ma/</id>
+        <link href="https://Mrshu1991.github.io/post/chang-yong-dan-yuan-ge-ge-shi-zi-ding-yi-dai-ma/">
+        </link>
+        <updated>2020-05-16T03:11:07.000Z</updated>
+        <content type="html"><![CDATA[<p>单元格自定义可提升数据输入速度，规范数据格式，是非常简单且实用的Excel技巧之一。</p>
+<h1 id="1-简略过长的数值并带上数据单位">1. 简略过长的数值并带上数据单位</h1>
+<p>案例：在数据统计工作中，如数据都是几万、几十万、几百万，有的还带有小数位，整体数据显示出来就很不好看。通过单元格自定义，我们可以把类似<code>36574839.547</code>这样的数据显示为<code>3657.50万</code>，具体效果如下👇</p>
+<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%8D%95%E5%85%83%E6%A0%BC%E8%87%AA%E5%AE%9A%E4%B9%891.jpg" alt="图示1" loading="lazy"></figure>
+<p>✒️ 代码：<br>
+2位小数：<code>0!.0,!0&quot;万&quot;</code><br>
+1位小数：0!.0,&quot;万&quot;</p>
+<h1 id="2-快速输入性别">2. 快速输入性别</h1>
+<p>案例：如性别这种2种内容重复输入的场景下可以提前设置好单元格格式，就可以快速输入了。如下👇</p>
+<figure data-type="image" tabindex="2"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%BF%AB%E9%80%9F%E8%BE%93%E5%85%A5%E6%80%A7%E5%88%ABgif.gif" alt="图示2" loading="lazy"></figure>
+<p>✒️ 代码：<br>
+不带颜色：<code>&quot;男&quot;;;&quot;女&quot;</code><br>
+自动填充颜色：<code>[红色]&quot;男&quot;;;[蓝色]&quot;女&quot;</code></p>
+<h1 id="3-快速输入第一小队-第二小队此种内容">3. 快速输入”第一小队“、“第二小队”此种内容</h1>
+<p>✒️ 代码：<code>&quot;第&quot;@&quot;军团&quot;</code></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sumproduct 应用于统计、求和]]></title>
+        <id>https://Mrshu1991.github.io/post/sumproduct-ying-yong-yu-tong-ji-qiu-he-he-cha-zhao/</id>
+        <link href="https://Mrshu1991.github.io/post/sumproduct-ying-yong-yu-tong-ji-qiu-he-he-cha-zhao/">
+        </link>
+        <updated>2020-05-16T01:37:43.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p><code>sumproduct</code>函数复习笔记。<br>
+常用场景：单（多）条件统计、单（多）条件求和。</p>
+</blockquote>
+<h1 id="单多条件求和">单（多）条件求和</h1>
+<p>📝 图例：<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/sumproduct%E6%B1%82%E5%92%8C.png" alt="sumproduct求和" loading="lazy"></p>
+<p>📣 公式：<br>
+单条件求和：<code>=SUMPRODUCT((A3:A16=F10)*D3:D16)</code><br>
+多条件求和：<code>=SUMPRODUCT(($A$3:$A$16=F5)*($C$3:$C$16=3)*$D$3:$D$16)</code></p>
+<hr>
+<h1 id="单多条件统计">单（多）条件统计</h1>
+<p>📝 图例：<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/sumproduct%E7%BB%9F%E8%AE%A1.png" alt="sumproduct统计" loading="lazy"></p>
+<p>📣 公式：<br>
+单条件统计：<code>=SUMPRODUCT((A3:A16=F10)*1)</code><br>
+多条件统计：<code>=SUMPRODUCT((A3:A16=F5)*(C3:C16=2))</code></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Excel图表美化-组合图]]></title>
         <id>https://Mrshu1991.github.io/post/excel-tu-biao-mei-hua-zu-he-tu/</id>
@@ -188,118 +236,6 @@
 <pre><code>&lt;iframe src=&quot;https://img-blog.csdnimg.cn/20191007225237660.gif&quot; width=&quot;350&quot; height=&quot;500&quot;&gt;
 </code></pre>
 <iframe src="https://img-blog.csdnimg.cn/20191007225237660.gif" width="350" height="500">
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[让PPT图表动起来]]></title>
-        <id>https://Mrshu1991.github.io/post/rang-ppt-tu-biao-dong-qi-lai/</id>
-        <link href="https://Mrshu1991.github.io/post/rang-ppt-tu-biao-dong-qi-lai/">
-        </link>
-        <updated>2020-04-08T13:10:55.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>作为数据展示的载体，动态图表会更加生动，可以有更好的展示效果。</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>作为数据展示的载体，动态图表会更加生动，可以有更好的展示效果。</p>
-</blockquote>
-<!-- more -->
-<table><tr><td bgcolor=#darkblue>效果演示</td></tr></table>
-<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/PPT%E5%8A%A8%E6%80%81%E5%9B%BE%E8%A1%A8.gif" alt="图例1" loading="lazy"></figure>
-<p>
-<figure data-type="image" tabindex="2"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%88%86%E5%89%B2%E7%BA%BF%E7%BA%A2%E8%89%B2.png" alt="分割线" loading="lazy"></figure>
-<p>
-<p>📝  Tips：</p>
-<p>1️⃣  目前仅有【擦除】动画效果可以完美适用于图表；</p>
-<p>2️⃣  目前只有【柱形图】、【折线图】、【柱状图】，以及以上三种类型的组合图适用；</p>
-<hr>
-<table><tr><td bgcolor=#darkblue>教程</td></tr></table>
-<ol>
-<li>
-<p>选中图表，点击【动画】选项卡，选中【擦除】动画效果；</p>
-</li>
-<li>
-<p>点击【效果选项】，调整<code>方向</code>和<code>序列</code>；不同的<code>方向</code>和<code>序列</code>的选择，图表会有不同的展示效果；</p>
-</li>
-<li>
-<p>调整动画的播放方式、持续时间等参数。</p>
-<figure data-type="image" tabindex="3"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/PPT%E5%8A%A8%E6%80%81%E5%9B%BE%E8%A1%A8%E5%88%B6%E4%BD%9C.gif" alt="图例2" loading="lazy"></figure>
-</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Excel图表美化-条形图]]></title>
-        <id>https://Mrshu1991.github.io/post/excel-tu-biao-mei-hua-tiao-xing-tu/</id>
-        <link href="https://Mrshu1991.github.io/post/excel-tu-biao-mei-hua-tiao-xing-tu/">
-        </link>
-        <updated>2020-04-07T13:46:47.000Z</updated>
-        <summary type="html"><![CDATA[<p>使用图表将密密麻麻的、枯燥无味的数字变得直观、美观，更易于阅读与理解。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>使用图表将密密麻麻的、枯燥无味的数字变得直观、美观，更易于阅读与理解。</p>
-<!-- more -->
-<p><strong>案例：制作4月份招聘目标完成情况的图表，数据如下</strong>：</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">职位</th>
-<th style="text-align:center">目标</th>
-<th style="text-align:center">完成</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">采购专员</td>
-<td style="text-align:center">50</td>
-<td style="text-align:center">34</td>
-</tr>
-<tr>
-<td style="text-align:center">运营助理</td>
-<td style="text-align:center">35</td>
-<td style="text-align:center">27</td>
-</tr>
-<tr>
-<td style="text-align:center">营销主管</td>
-<td style="text-align:center">25</td>
-<td style="text-align:center">18</td>
-</tr>
-<tr>
-<td style="text-align:center">营销策划</td>
-<td style="text-align:center">45</td>
-<td style="text-align:center">39</td>
-</tr>
-</tbody>
-</table>
-<p><mark>效果对比图</mark></p>
-<h2 id=""><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE%E5%AF%B9%E6%AF%94.jpg" alt="对比图" loading="lazy"></h2>
-<h1 id="第一步插入条形图"><strong>第一步：插入条形图</strong></h1>
-<p>1️⃣  选中数据区域（如下图表格中的B2：D6）</p>
-<p>2️⃣  点击【插入】选项卡，选择插入【簇状条形图】</p>
-<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE.jpg" alt="图例1" loading="lazy"></figure>
-<p>3️⃣  调整水平轴参数后删除水平轴</p>
-<figure data-type="image" tabindex="2"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE2.gif" alt="图例2" loading="lazy"></figure>
-<p>4️⃣  删除网格线和垂直轴轮廓</p>
-<figure data-type="image" tabindex="3"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE3.gif" alt="图例3" loading="lazy"></figure>
-<hr>
-<h1 id="第二步用图案替代条形"><strong>第二步：用图案替代条形</strong></h1>
-<p>1️⃣ 准备2个相同图案，1个填充为橙色，1个填充浅灰。这里我用office自带图标演示</p>
-<figure data-type="image" tabindex="4"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE4.gif" alt="图例4" loading="lazy"></figure>
-<p>2️⃣  将图案分别填充到条形图内（橙色图案填充至<code>完成</code>数据条内，浅灰图案填充至<code>目标</code>数据条内）<br>
-<code>ctrl+c 复制</code>     <code>ctrl+v 粘贴</code></p>
-<figure data-type="image" tabindex="5"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE5.gif" alt="图例5" loading="lazy"></figure>
-<p>3️⃣  设置数据系列格式（分别将橙色、灰色图案设置为【层叠】）</p>
-<figure data-type="image" tabindex="6"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE6.gif" alt="图例6" loading="lazy"></figure>
-<p>4️⃣  将两个数据列重叠</p>
-<figure data-type="image" tabindex="7"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE7.gif" alt="图例7" loading="lazy"></figure>
-<hr>
-<h1 id="最后一步微调与修饰"><strong>最后一步：微调与修饰</strong></h1>
-<p>1️⃣  修改图表标题（注意细节非常重要）</p>
-<p>2️⃣  添加数据标签</p>
-<p>3️⃣  图表美化：添加背景色，边框色等等。（商务型图表颜色不要过于杂乱，要符合数据展示所处的环境）</p>
-<p>以下调整的示例图可供参考。</p>
-<figure data-type="image" tabindex="8"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9D%A1%E5%BD%A2%E5%9B%BE8.gif" alt="图例8" loading="lazy"></figure>
-<hr>
-<p><font color=darkblu size=10>学以致用，举一反三</font></p>
 ]]></content>
     </entry>
 </feed>
