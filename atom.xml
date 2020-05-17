@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mrshu1991.github.io</id>
     <title>keanu</title>
-    <updated>2020-05-17T06:31:36.721Z</updated>
+    <updated>2020-05-17T07:56:55.689Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mrshu1991.github.io"/>
     <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
@@ -32,6 +32,8 @@
 <p>1️⃣ 打开支付宝，在搜索框输入<code>武汉人社</code>；<br>
 2️⃣ 进入<code>武汉人社</code>，点击中间蓝色区域【武汉市人力资源和社会保障局-社会保障卡业务办理】；<br>
 3️⃣ 点击【申请社保卡】，按照步骤完成即可。</p>
+<p>📣 上传照片的照片格式要求：JPG格式、白底、像素为358（宽）*441（高），文件大小在5-50k；<br>
+🔔  可用PS按照要求修改照片格式，微信小程序也可以。如符合规格的照片还提示不符合要求，可多尝试一下，实在弄不好建议还是去线下办理。</p>
 <h1 id="3-电子社保卡申领">3. 电子社保卡申领</h1>
 <p><mark>电子社保卡目前已普及，大多数药店、医院均可使用</mark></p>
 <p><mark>申请电子社保卡之前需确保自己已有实体社保卡</mark></p>
