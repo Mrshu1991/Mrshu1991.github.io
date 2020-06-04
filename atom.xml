@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mrshu1991.github.io</id>
     <title>keanu</title>
-    <updated>2020-05-26T07:48:29.988Z</updated>
+    <updated>2020-06-04T09:24:47.282Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mrshu1991.github.io"/>
     <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
@@ -69,6 +69,10 @@
 <h1 id="5-星号显示录入的数据">5. 星号（*）显示录入的数据</h1>
 <p>✒️ 代码：<code>**</code></p>
 <p>📣  使用此代码和审阅里的工作表保护功能，可以将表格中的部分数据以星号显示，且他人无法查看和修改。</p>
+<h1 id="6-日期自带星期几">6. 日期自带星期几</h1>
+<p>✒️ 代码：<code>yyyy/m/d AAAA</code></p>
+<h1 id="7-将小写数字显示为大写">7. 将小写数字显示为大写</h1>
+<p>✒️ 代码：<code>[dbnum2]</code></p>
 ]]></content>
     </entry>
     <entry>
