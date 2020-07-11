@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mrshu1991.github.io</id>
     <title>keanu</title>
-    <updated>2020-06-04T09:24:47.282Z</updated>
+    <updated>2020-07-11T07:41:40.083Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mrshu1991.github.io"/>
     <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
@@ -11,6 +11,50 @@
     <logo>https://Mrshu1991.github.io/images/avatar.png</logo>
     <icon>https://Mrshu1991.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, keanu</rights>
+    <entry>
+        <title type="html"><![CDATA[解决百度网盘下载的几种方法]]></title>
+        <id>https://Mrshu1991.github.io/post/jie-jue-bai-du-wang-pan-xia-zai-de-ji-chong-fang-fa/</id>
+        <link href="https://Mrshu1991.github.io/post/jie-jue-bai-du-wang-pan-xia-zai-de-ji-chong-fang-fa/">
+        </link>
+        <updated>2020-07-11T06:46:41.000Z</updated>
+        <content type="html"><![CDATA[<p>在没有使用“钞能力”之前，度盘的下载速度会让人觉得自己是在3G网络的时代。不过网络大神辈出，收集并实测了几种方式，都能满速下载，感觉都还不错。</p>
+<h1 id="方法1️⃣">方法1️⃣</h1>
+<p>使用<code>http://pan.naifei.cc/?</code>进行解析，并使用浏览器进行下载，建议使用IDM下载器；</p>
+<p>使用方法📑：</p>
+<ul>
+<li>打开<code>http://pan.naifei.cc/?</code></li>
+<li>复制度盘分享链接；</li>
+<li>粘贴至<code>http://pan.naifei.cc/?</code>后面，然后回车；</li>
+<li>选择需要下载的文件进行下载即可。</li>
+</ul>
+<p>💻 示例图：<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%BA%A6%E7%9B%98%E4%B8%8B%E8%BD%BD1.jpg" alt="" loading="lazy"><br>
+🔔  <mark>建议使用Edge，或者Google chrome浏览器</mark></p>
+<p>👉下载<a href="https://pan.baidu.com/s/1u7RScKG4D1fGEqUWx7A-ZA">IDM下载器</a>,提取码：cf6a</p>
+<h1 id="方法2️⃣">方法2️⃣</h1>
+<p>使用脚本和IDM下载器。<br>
+<mark>只能单文件下载，无法下载整个文件夹。建议存储资料的时候都做成压缩包再存储在云盘。</mark></p>
+<p>使用方法📑：</p>
+<ul>
+<li>安装油猴（Tampermonkey）插件。参考另一篇文章【<a href="http://keanu.gold/post/chao-ji-shi-yong-de-liu-lan-qi-cha-jian/">实用的浏览器插件</a>】;</li>
+<li>安装脚本<a href="https://greasyfork.org/zh-CN/scripts/403991-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E9%93%BE%E6%8F%90%E5%8F%96-%E5%A4%9A%E9%80%89">百度网盘直链提取</a>;</li>
+<li>进入浏览器，进入百度网盘页面（如需下载他人分享的文件，需要先转存至自己的度盘内）</li>
+<li>选中需要下载的文件，点击下载，复制链接；</li>
+<li>粘贴链接至IDM即可高速下载。</li>
+</ul>
+<p>📺 操作演示：</p>
+<p><a href="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%BA%A6%E7%9B%98%E4%B8%8B%E8%BD%BD2.gif">演示</a></p>
+<h1 id="方法3️⃣">方法3️⃣</h1>
+<h1 id="速盘一个第三方度盘资源下载器">速盘，一个第三方度盘资源下载器。</h1>
+<ul>
+<li>可多文件同时下载；</li>
+<li>可高速下载；</li>
+<li>需要付费。价格如下图：==<br>
+<a href="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E9%80%9F%E7%9B%98.jpg">速盘</a></li>
+</ul>
+<p>需要安装包的请在留言区留下自己的邮箱。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[社保卡申办教程]]></title>
         <id>https://Mrshu1991.github.io/post/she-bao-qia-shen-ban-jiao-cheng/</id>
@@ -158,64 +202,6 @@
 <li>如果想用图片作为填充背景，最好先虚化或者蒙版处理一下；</li>
 <li>记得修改图表内文字的格式，以免文字、数字显示不清；</li>
 <li>删除冗余元素，保持展示的图表整洁美观。</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于试用期期限的政策解读]]></title>
-        <id>https://Mrshu1991.github.io/post/guan-yu-shi-yong-qi-qi-xian-de-zheng-ce-jie-du/</id>
-        <link href="https://Mrshu1991.github.io/post/guan-yu-shi-yong-qi-qi-xian-de-zheng-ce-jie-du/">
-        </link>
-        <updated>2020-04-17T06:55:49.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="试用期期限的制定可参考劳动合同法第十九条">试用期期限的制定可参考《劳动合同法》第十九条：</h1>
-<blockquote>
-<ul>
-<li>劳动合同期限三个月以上不满一年的，试用期不得超过一个月；</li>
-<li>劳动合同期限一年以上不满三年的，试用期不得超过二个月；</li>
-<li>三年以上固定期限和无固定期限的劳动合同，试用期不得超过六个月。</li>
-<li>同一用人单位与同一劳动者只能约定一次试用期。</li>
-<li>以完成一定工作任务为期限的劳动合同或者劳动合同期限不满三个月的，不得约定试用期。</li>
-<li>试用期包含在劳动合同期限内。劳动合同仅约定试用期的，试用期不成立，该期限为劳动合同期限。</li>
-</ul>
-</blockquote>
-<hr>
-<h1 id="政策解读">政策解读📝：</h1>
-<ol>
-<li>
-<p>以上条例中的“三个月以上”指：三个月及三个月以上。“一年以上”和“三年以上”做同等理解；</p>
-</li>
-<li>
-<p>如某员工在19年入职该单位，约定了一次试用期。年底因故离职，于20年返回该公司重新入职后，无需也不能再次约定试用期，就算他换了一个从未接触过的工作岗位；</p>
-</li>
-<li>
-<p>合同期限不足3个月，不能约定试用期；</p>
-</li>
-<li>
-<p>某单位需要招聘一名临时的技术人员，帮助公司进行网站的前期建设，网站建设完毕即合同到期。此类型的，以完成一定工作任务为期限的合同是无法约定试用期的；</p>
-</li>
-<li>
-<p>试用期是根据企业和劳动者之间签订的劳动合同的期限来确定的，所以单独的试用期合同是不成立的，是违规的。</p>
-</li>
-</ol>
-<hr>
-<h1 id="不符合规定的试用期应该如何进行赔偿">不符合规定的试用期应该如何进行赔偿？</h1>
-<p>📚 <strong>案例</strong>：<br>
-  小王2019年入职某公司，签订了2年的劳动合同，公司与其签订了6个月试用期。小王在转正1个月之后，因家里有亲人病重需要照顾就辞职回家了。3个月后，小王处理完个人事宜之后，返回该公司再次签订3年的劳动合同，本次试用期约定了3个月。在工作了4个月之后，公司觉得小王不符合任用要求，与其解除了劳动合同。事后小王觉得不公，在咨询了律师后了解到公司违规约定了试用期，决定仲裁。</p>
-<p>📝 <strong>分析</strong></p>
-<p>1️⃣ <em><strong>该公司总共违规约定多久的试用期</strong></em>？</p>
-<p>  <mark>该公司违规约定试用期7个月</mark>。</p>
-<ul>
-<li>初次入职签订的是2年的合同，试用期不得超过2个月，第一次签订合同时公司多约定4个月试用期；</li>
-<li>根据“同一用人单位与同一劳动者只能约定一次试用期”，第二次签订合同时约定的3个月试用期均属违规；</li>
-</ul>
-<p>2️⃣ <em><strong>如何计算赔偿</strong></em>？</p>
-<p>   参考《劳动合同法》第八十三条：</p>
-<blockquote>
-<p>用人单位违反本法规定与劳动者约定试用期的,由劳动行政部门责令改正;违法约定的试用期已经履行的,由用人单位以劳动者<mark>试用期满月工资为标准</mark>,按已经履行的超过法定试用期的期间向劳动者支付赔偿金。</p>
-</blockquote>
-<ul>
-<li>违规约定的7个月试用期期间的工资需按照合同约定的试用期满后的正式工资发放，如之前已经按试用期的进行了发放，需要补齐差额；</li>
-<li>违规约定的7个月试用期需要按照试用期满后的工资为标准进行赔偿。</li>
 </ul>
 ]]></content>
     </entry>
