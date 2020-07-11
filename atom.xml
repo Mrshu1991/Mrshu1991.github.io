@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mrshu1991.github.io</id>
     <title>keanu</title>
-    <updated>2020-07-11T07:41:40.083Z</updated>
+    <updated>2020-07-11T07:54:44.081Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mrshu1991.github.io"/>
     <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
@@ -12,7 +12,7 @@
     <icon>https://Mrshu1991.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, keanu</rights>
     <entry>
-        <title type="html"><![CDATA[解决百度网盘下载的几种方法]]></title>
+        <title type="html"><![CDATA[解决百度网盘下载慢的3种方法]]></title>
         <id>https://Mrshu1991.github.io/post/jie-jue-bai-du-wang-pan-xia-zai-de-ji-chong-fang-fa/</id>
         <link href="https://Mrshu1991.github.io/post/jie-jue-bai-du-wang-pan-xia-zai-de-ji-chong-fang-fa/">
         </link>
@@ -43,14 +43,14 @@
 <li>粘贴链接至IDM即可高速下载。</li>
 </ul>
 <p>📺 操作演示：</p>
-<p><a href="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%BA%A6%E7%9B%98%E4%B8%8B%E8%BD%BD2.gif">演示</a></p>
+<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%BA%A6%E7%9B%98%E4%B8%8B%E8%BD%BD2.gif" alt="演示" loading="lazy"></figure>
 <h1 id="方法3️⃣">方法3️⃣</h1>
 <h1 id="速盘一个第三方度盘资源下载器">速盘，一个第三方度盘资源下载器。</h1>
 <ul>
 <li>可多文件同时下载；</li>
 <li>可高速下载；</li>
 <li>需要付费。价格如下图：==<br>
-<a href="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E9%80%9F%E7%9B%98.jpg">速盘</a></li>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E9%80%9F%E7%9B%98.jpg" alt="速盘" loading="lazy"></li>
 </ul>
 <p>需要安装包的请在留言区留下自己的邮箱。</p>
 ]]></content>
