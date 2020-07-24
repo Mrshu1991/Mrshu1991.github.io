@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mrshu1991.github.io</id>
     <title>keanu</title>
-    <updated>2020-07-24T01:08:01.905Z</updated>
+    <updated>2020-07-24T01:10:25.056Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mrshu1991.github.io"/>
     <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
@@ -41,7 +41,7 @@
 <img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%AE%89%E8%A3%851.png" alt="安装" loading="lazy"></li>
 <li>打开软件安装路径，删除名为<code>EuDownloader.exe</code>的文件。（此举是为了防止软件进行更新检查）</li>
 <li>解压文件名为<code>Keygen-TSRh</code>的压缩包；</li>
-<li>以管理员身份运行<code>keygen</code>程序，选择EaseSU的安装文件夹；<br>
+<li>以管理员身份运行<code>keygen</code>程序，选择EaseSU的安装文件夹；<mark>最好将<code>keygen</code>程序拖入到EaseSU的安装路径内再执行</mark><br>
 <img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%A0%B4%E8%A7%A3%E6%96%B9%E6%B3%95.gif" alt="破解" loading="lazy"></li>
 <li>最后执行Block命令脚本后软件即可正常使用。</li>
 </ol>
