@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mrshu1991.github.io</id>
     <title>keanu</title>
-    <updated>2020-07-11T07:58:08.364Z</updated>
+    <updated>2020-07-24T01:08:01.905Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mrshu1991.github.io"/>
     <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
@@ -11,6 +11,43 @@
     <logo>https://Mrshu1991.github.io/images/avatar.png</logo>
     <icon>https://Mrshu1991.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, keanu</rights>
+    <entry>
+        <title type="html"><![CDATA[文件恢复其实很简单。]]></title>
+        <id>https://Mrshu1991.github.io/post/wen-jian-hui-fu-qi-shi-hen-jian-dan/</id>
+        <link href="https://Mrshu1991.github.io/post/wen-jian-hui-fu-qi-shi-hen-jian-dan/">
+        </link>
+        <updated>2020-07-24T00:04:15.000Z</updated>
+        <content type="html"><![CDATA[<p><code>EaseUS Data Recovery Wizard Technician</code></p>
+<p><strong>📝 功能介绍：</strong></p>
+<p>1️⃣ 恢复删除、格式化或无法访问的数据；<br>
+2️⃣ 恢复所有类型的文件，包括但不限于（照片、文档、视频、音频、邮件、压缩文件等）；<br>
+3️⃣ 恢复个人电脑、笔记本、数码设备、硬盘、存储媒介、服务器、RAID等丢失的数据；<br>
+4️⃣ 从指定文件夹恢复数据；<br>
+5️⃣ 恢复删除、隐藏、丢失或者raw分区上的数据；<br>
+6️⃣ 恢复电脑无法正常启动操作系统或其它启动问题导致丢失的数据。</p>
+<p><mark>彻底删除，格式化是无法真正有效删除文件的</mark></p>
+<hr>
+<p><strong>📥 软件下载地址：</strong></p>
+<p>中文官网：http://cn.easeus.com/<br>
+英文官网：https://www.easeus.com/</p>
+<p><mark>建议使用正版软件。</mark></p>
+<hr>
+<p><font size=4 color=darkblue>以下内容为<code>EaseUS Data Recovery Wizard Technician</code>技术员授权破解版安装及使用说明。</font></p>
+<p>📥 <a href="https://share.weiyun.com/oDNGhFcy">下载安装包</a>，取货码：20200724</p>
+<h1 id="安装及破解步骤">安装及破解步骤</h1>
+<ol>
+<li>下载安装包后进行解压；</li>
+<li>解压后文件夹内有2个文件，先点击DRW进行软件安装，安装之后不要着急运行软件，先执行破解程序；<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%AE%89%E8%A3%851.png" alt="安装" loading="lazy"></li>
+<li>打开软件安装路径，删除名为<code>EuDownloader.exe</code>的文件。（此举是为了防止软件进行更新检查）</li>
+<li>解压文件名为<code>Keygen-TSRh</code>的压缩包；</li>
+<li>以管理员身份运行<code>keygen</code>程序，选择EaseSU的安装文件夹；<br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%A0%B4%E8%A7%A3%E6%96%B9%E6%B3%95.gif" alt="破解" loading="lazy"></li>
+<li>最后执行Block命令脚本后软件即可正常使用。</li>
+</ol>
+<table><tr><td bgcolor=#FF00FF>按以上步骤操作完毕之后，软件即可正常使用。使用方法就很简单了，请自行摸索 。</td></tr></table>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[解决百度网盘下载慢的3种方法]]></title>
         <id>https://Mrshu1991.github.io/post/jie-jue-bai-du-wang-pan-xia-zai-de-ji-chong-fang-fa/</id>
@@ -142,67 +179,6 @@
 <p>📣 公式：<br>
 单条件统计：<code>=SUMPRODUCT((A3:A16=F10)*1)</code><br>
 多条件统计：<code>=SUMPRODUCT((A3:A16=F5)*(C3:C16=2))</code></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Excel图表美化-组合图]]></title>
-        <id>https://Mrshu1991.github.io/post/excel-tu-biao-mei-hua-zu-he-tu/</id>
-        <link href="https://Mrshu1991.github.io/post/excel-tu-biao-mei-hua-zu-he-tu/">
-        </link>
-        <updated>2020-04-17T12:01:45.000Z</updated>
-        <content type="html"><![CDATA[<p>人狠话不多，直接上一个美化后的组合图表，看一看效果如何。</p>
-<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BB%84%E5%90%88%E5%9B%BE%E7%BE%8E%E5%8C%96.jpg" alt="图例1" loading="lazy"></figure>
-<figure data-type="image" tabindex="2"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%88%86%E5%89%B2%E7%BA%BF%E7%BA%A2%E8%89%B2.png" alt="分割线" loading="lazy"></figure>
-<p>最为详细的教程，开始！<br>
-👇👇👇</p>
-<h1 id="整理数据源">整理数据源</h1>
-<figure data-type="image" tabindex="3"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BE%8E%E5%8C%961.jpg" alt="1" loading="lazy"></figure>
-<p>📣 整理数据源的时候需要注意以下几点：</p>
-<ul>
-<li>每一个季度数据源的上下区域都需要空一行；</li>
-<li>示例图中的D:G列的数据对应的是各季度3个月份的数据总和；</li>
-</ul>
-<hr>
-<h1 id="插入柱状图">插入柱状图</h1>
-<figure data-type="image" tabindex="4"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BE%8E%E5%8C%962.jpg" alt="2" loading="lazy"></figure>
-<p>📣 注意事项</p>
-<ul>
-<li>数据源不包含表头区域；</li>
-</ul>
-<hr>
-<h1 id="更改图表类型">更改图表类型</h1>
-<figure data-type="image" tabindex="5"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BE%8E%E5%8C%963.gif" alt="3" loading="lazy"></figure>
-<p>操作步骤：</p>
-<ul>
-<li>右击图表，选择【更改图表类型】，选择【组合图】，选择【自定义组合】；</li>
-<li>将月份系列改为【带数据标记的折线图】；</li>
-<li>将其余系列都改为【柱状图】。</li>
-</ul>
-<hr>
-<h1 id="设置图表格式">设置图表格式</h1>
-<figure data-type="image" tabindex="6"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BE%8E%E5%8C%964.gif" alt="4" loading="lazy"></figure>
-<p>操作步骤：</p>
-<ul>
-<li>选中柱形图右击，选择【设置数据系列格式】；</li>
-<li>在【系列选项】内将【系列重叠】调为100%，【间隙宽度】调为0%。</li>
-</ul>
-<hr>
-<h1 id="添加数据标签">添加数据标签</h1>
-<figure data-type="image" tabindex="7"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BE%8E%E5%8C%965.gif" alt="5" loading="lazy"></figure>
-<p>📣 注意事项</p>
-<ul>
-<li>折线图的数据标签需更改为【靠上】；</li>
-<li>给柱状图添加标签时，只添加中间的就好（双击即为选中单独的数据列）。</li>
-</ul>
-<hr>
-<h1 id="删除多余元素修改背景等">删除多余元素，修改背景等</h1>
-<figure data-type="image" tabindex="8"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%BB%84%E5%90%88%E5%9B%BE%E7%BE%8E%E5%8C%96.jpg" alt="6" loading="lazy"></figure>
-<p>📣 注意事项</p>
-<ul>
-<li>如果想用图片作为填充背景，最好先虚化或者蒙版处理一下；</li>
-<li>记得修改图表内文字的格式，以免文字、数字显示不清；</li>
-<li>删除冗余元素，保持展示的图表整洁美观。</li>
-</ul>
 ]]></content>
     </entry>
 </feed>
