@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mrshu1991.github.io</id>
     <title>keanu</title>
-    <updated>2020-07-27T05:28:01.052Z</updated>
+    <updated>2020-08-30T01:33:37.549Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mrshu1991.github.io"/>
     <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
@@ -11,6 +11,51 @@
     <logo>https://Mrshu1991.github.io/images/avatar.png</logo>
     <icon>https://Mrshu1991.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, keanu</rights>
+    <entry>
+        <title type="html"><![CDATA[劳动关系的判定]]></title>
+        <id>https://Mrshu1991.github.io/post/lao-dong-guan-xi-de-pan-ding/</id>
+        <link href="https://Mrshu1991.github.io/post/lao-dong-guan-xi-de-pan-ding/">
+        </link>
+        <updated>2020-08-30T01:30:34.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="案例"><strong>案例：</strong></h1>
+<p>2011 年 9 月，沈某至某早餐店工作，专门从事包子、点心的制作，并约定工资为 2700 元/月。同年 10 月 28 日，沈某用和面机和面时致伤，沈某要求确认与早餐店存在劳动关系。早餐店认为沈某仅是劳务帮工，不存在劳动关系。</p>
+<h1 id="案例解析"><strong>案例解析：</strong></h1>
+<h2 id="本案核心争议点"><strong>本案核心争议点：</strong></h2>
+<ul>
+<li>沈某与该早餐店是否属于劳动关系？</li>
+</ul>
+<h2 id="本案参考法条"><strong>本案参考法条：</strong></h2>
+<p>关于劳动关系的判定，劳动和社会保障部在2005年的12号文件做了明确说明：</p>
+<blockquote>
+<p>二、用人单位未与劳动者签订劳动合同，认定双方存在劳动关系时可参照下列凭证：</p>
+</blockquote>
+<blockquote>
+<p>(一)工资支付凭证或记录(职工工资发放花名册)、缴纳各项社会保险费的记录;</p>
+</blockquote>
+<blockquote>
+<p>(二)用人单位向劳动者发放的“工作证”、“服务证”等能够证明身份的证件;</p>
+</blockquote>
+<blockquote>
+<p>(三)劳动者填写的用人单位招工招聘“登记表”、“报名表”等招用记录;</p>
+</blockquote>
+<blockquote>
+<p>(四)考勤记录;</p>
+</blockquote>
+<blockquote>
+<p>(五)其他劳动者的证言等。</p>
+</blockquote>
+<blockquote>
+<p><strong>其中，(一)、(三)、(四)项的有关凭证由用人单位负举证责任。</strong></p>
+</blockquote>
+<h1 id="本案仲裁结果">本案仲裁结果：</h1>
+<p>参考以上条例，可判定早餐店与沈某已确定了劳动关系。沈某系因工负伤。</p>
+<h1 id="延申tips"><strong>延申Tips：</strong></h1>
+<ul>
+<li>无论企业规模如何，都应遵守劳动法和其他相关条例，避免因违规操作给企业本身带来更大的损失。</li>
+<li>如果只是临时雇佣的，或者以完成某项任务所雇佣的劳务关系人员，建议至少要购买工伤保险以及其他商业险。</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[工伤“六问”解答]]></title>
         <id>https://Mrshu1991.github.io/post/gong-shang-liu-wen-jie-da/</id>
@@ -86,7 +131,7 @@
 <p><mark>建议使用正版软件。</mark></p>
 <hr>
 <p><font size=4 color=darkblue>以下内容为<code>EaseUS Data Recovery Wizard Technician</code>技术员授权破解版安装及使用说明。</font></p>
-<p>📥 <a href="https://share.weiyun.com/oDNGhFcy">下载安装包</a>，取货码：20200724</p>
+<p>📥 <a href="https://share.weiyun.com/oDNGhFcy">下载安装包</a>，取货码：202007</p>
 <h1 id="安装及破解步骤">安装及破解步骤</h1>
 <ol>
 <li>下载安装包后进行解压；</li>
@@ -174,39 +219,6 @@
 <p>1️⃣ 打开支付宝，在搜索框输入<code>电子社保卡</code>；<br>
 2️⃣ 进入<code>社保服务</code>；<br>
 3️⃣ 进入<code>电子社保卡</code>，按照系统流程完成即可。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[常用单元格格式自定义代码]]></title>
-        <id>https://Mrshu1991.github.io/post/chang-yong-dan-yuan-ge-ge-shi-zi-ding-yi-dai-ma/</id>
-        <link href="https://Mrshu1991.github.io/post/chang-yong-dan-yuan-ge-ge-shi-zi-ding-yi-dai-ma/">
-        </link>
-        <updated>2020-05-16T03:11:07.000Z</updated>
-        <content type="html"><![CDATA[<p>单元格自定义可提升数据输入速度，规范数据格式，是非常简单且实用的Excel技巧之一。</p>
-<h1 id="1-简略过长的数值并带上数据单位">1. 简略过长的数值并带上数据单位</h1>
-<p>案例：在数据统计工作中，如数据都是几万、几十万、几百万，有的还带有小数位，整体数据显示出来就很不好看。通过单元格自定义，我们可以把类似<code>36574839.547</code>这样的数据显示为<code>3657.50万</code>，具体效果如下👇</p>
-<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%8D%95%E5%85%83%E6%A0%BC%E8%87%AA%E5%AE%9A%E4%B9%891.jpg" alt="图示1" loading="lazy"></figure>
-<p>✒️ 代码：<br>
-2位小数：<code>0!.0,!0&quot;万&quot;</code><br>
-1位小数：0!.0,&quot;万&quot;</p>
-<h1 id="2-快速输入性别">2. 快速输入性别</h1>
-<p>案例：如性别这种2种内容重复输入的场景下可以提前设置好单元格格式，就可以快速输入了。如下👇</p>
-<figure data-type="image" tabindex="2"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%BF%AB%E9%80%9F%E8%BE%93%E5%85%A5%E6%80%A7%E5%88%ABgif.gif" alt="图示2" loading="lazy"></figure>
-<p>✒️ 代码：<br>
-不带颜色：<code>&quot;男&quot;;;&quot;女&quot;</code><br>
-自动填充颜色：<code>[红色]&quot;男&quot;;;[蓝色]&quot;女&quot;</code></p>
-<h1 id="3-快速输入第一小队-第二小队此种内容">3. 快速输入”第一小队“、“第二小队”此种内容</h1>
-<p>✒️ 代码：<code>&quot;第&quot;@&quot;军团&quot;</code></p>
-<h1 id="4-输入带单位的数据且不影响函数计算">4. 输入带单位的数据，且不影响函数计算</h1>
-<p>手动输入的带单位的数据，是不能直接求和的，需要用到一些特殊的函数公司来完成。但是通过单元格自定义，就可以让数据都带上单位且不影响计算。</p>
-<p>✒️ 代码：<code>0&quot;元&quot;</code></p>
-<h1 id="5-星号显示录入的数据">5. 星号（*）显示录入的数据</h1>
-<p>✒️ 代码：<code>**</code></p>
-<p>📣  使用此代码和审阅里的工作表保护功能，可以将表格中的部分数据以星号显示，且他人无法查看和修改。</p>
-<h1 id="6-日期自带星期几">6. 日期自带星期几</h1>
-<p>✒️ 代码：<code>yyyy/m/d AAAA</code></p>
-<h1 id="7-将小写数字显示为大写">7. 将小写数字显示为大写</h1>
-<p>✒️ 代码：<code>[dbnum2]</code></p>
 ]]></content>
     </entry>
 </feed>
