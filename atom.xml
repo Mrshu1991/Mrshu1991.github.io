@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mrshu1991.github.io</id>
     <title>keanu</title>
-    <updated>2020-09-14T07:25:01.367Z</updated>
+    <updated>2020-11-01T02:30:21.797Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mrshu1991.github.io"/>
     <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
@@ -11,6 +11,21 @@
     <logo>https://Mrshu1991.github.io/images/avatar.png</logo>
     <icon>https://Mrshu1991.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, keanu</rights>
+    <entry>
+        <title type="html"><![CDATA[透视裁剪工具-透视矫正]]></title>
+        <id>https://Mrshu1991.github.io/post/tou-shi-cai-jian-gong-ju-tou-shi-jiao-zheng/</id>
+        <link href="https://Mrshu1991.github.io/post/tou-shi-cai-jian-gong-ju-tou-shi-jiao-zheng/">
+        </link>
+        <updated>2020-11-01T02:28:16.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>导入图片至PS；</li>
+<li>左侧工具栏处找到【裁剪工具】；</li>
+<li>鼠标右击【裁剪工具】，选择【透视裁剪工具】；</li>
+<li>依次点选需要矫正的坐标点，按【enter】即可。</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E9%80%8F%E8%A7%86%E7%9F%AB%E6%AD%A3.gif" alt="透视矫正" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[用人单位违法在先 职工无需把责担]]></title>
         <id>https://Mrshu1991.github.io/post/yong-ren-dan-wei-wei-fa-zai-xian-zhi-gong-wu-xu-ba-ze-dan/</id>
@@ -391,43 +406,6 @@
 <h1 id="6-未参加工伤保险的职工因工受伤是否就没有保障了"><strong>6. 未参加工伤保险的职工因工受伤是否就没有保障了？</strong></h1>
 <p>不是。未参加工伤保险的职工因工受伤，仍可享受工伤待遇。《工伤保险条例》第六十二条规定：<strong>依照本条例规定应当参加工伤保险而未参加工伤保险的用人单位职工发生工伤的，由该用人单位按照本条例规定的工伤保险待遇项目和标准支付费用</strong>。</p>
 <p>未参加工伤保险的职工因工受伤后，由职工或者其近亲属、工会组织在事故伤害发生之日起1年内向用人单位所在地统筹地区社会保险行政部门提出工伤认定申请，但发生工伤后的相关费用由该用人单位按照本条例规定的工伤保险待遇项目和标准支付费用。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[文件恢复其实很简单。]]></title>
-        <id>https://Mrshu1991.github.io/post/wen-jian-hui-fu-qi-shi-hen-jian-dan/</id>
-        <link href="https://Mrshu1991.github.io/post/wen-jian-hui-fu-qi-shi-hen-jian-dan/">
-        </link>
-        <updated>2020-07-24T00:04:15.000Z</updated>
-        <content type="html"><![CDATA[<p><code>EaseUS Data Recovery Wizard Technician</code></p>
-<p><strong>📝 功能介绍：</strong></p>
-<p>1️⃣ 恢复删除、格式化或无法访问的数据；<br>
-2️⃣ 恢复所有类型的文件，包括但不限于（照片、文档、视频、音频、邮件、压缩文件等）；<br>
-3️⃣ 恢复个人电脑、笔记本、数码设备、硬盘、存储媒介、服务器、RAID等丢失的数据；<br>
-4️⃣ 从指定文件夹恢复数据；<br>
-5️⃣ 恢复删除、隐藏、丢失或者raw分区上的数据；<br>
-6️⃣ 恢复电脑无法正常启动操作系统或其它启动问题导致丢失的数据。</p>
-<p><mark>彻底删除，格式化是无法真正有效删除文件的</mark></p>
-<hr>
-<p><strong>📥 软件下载地址：</strong></p>
-<p>中文官网：http://cn.easeus.com/<br>
-英文官网：https://www.easeus.com/</p>
-<p><mark>建议使用正版软件。</mark></p>
-<hr>
-<p><font size=4 color=darkblue>以下内容为<code>EaseUS Data Recovery Wizard Technician</code>技术员授权破解版安装及使用说明。</font></p>
-<p>📥 <a href="https://share.weiyun.com/oDNGhFcy">下载安装包</a>，取货码：202007</p>
-<h1 id="安装及破解步骤">安装及破解步骤</h1>
-<ol>
-<li>下载安装包后进行解压；</li>
-<li>解压后文件夹内有2个文件，先点击DRW进行软件安装，安装之后不要着急运行软件，先执行破解程序；<br>
-<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E5%AE%89%E8%A3%851.png" alt="安装" loading="lazy"></li>
-<li>打开软件安装路径，删除名为<code>EuDownloader.exe</code>的文件。（此举是为了防止软件进行更新检查）</li>
-<li>解压文件名为<code>Keygen-TSRh</code>的压缩包；</li>
-<li>以管理员身份运行<code>keygen</code>程序，选择EaseSU的安装文件夹；<mark>最好将<code>keygen</code>程序拖入到EaseSU的安装路径内再执行</mark><br>
-<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E7%A0%B4%E8%A7%A3%E6%96%B9%E6%B3%95.gif" alt="破解" loading="lazy"></li>
-<li>最后执行Block命令脚本后软件即可正常使用。</li>
-</ol>
-<table><tr><td bgcolor=#FF00FF>按以上步骤操作完毕之后，软件即可正常使用。使用方法就很简单了，请自行摸索 。</td></tr></table>
 ]]></content>
     </entry>
 </feed>
