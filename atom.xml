@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mrshu1991.github.io</id>
     <title>keanu</title>
-    <updated>2020-11-01T02:30:51.105Z</updated>
+    <updated>2021-02-25T14:20:25.613Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mrshu1991.github.io"/>
     <link rel="self" href="https://Mrshu1991.github.io/atom.xml"/>
@@ -10,7 +10,52 @@
 不如去做些让人生有意义的事。</subtitle>
     <logo>https://Mrshu1991.github.io/images/avatar.png</logo>
     <icon>https://Mrshu1991.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, keanu</rights>
+    <rights>All rights reserved 2021, keanu</rights>
+    <entry>
+        <title type="html"><![CDATA[让广告弹窗无所遁形]]></title>
+        <id>https://Mrshu1991.github.io/post/rang-guang-gao-dan-chuang-wu-suo-dun-xing/</id>
+        <link href="https://Mrshu1991.github.io/post/rang-guang-gao-dan-chuang-wu-suo-dun-xing/">
+        </link>
+        <updated>2021-02-25T14:08:53.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>Procexp简介：本软件是由微软发布的进程管理器，可代替或者直接替换Windows系统的进程管理。</p>
+</blockquote>
+<h1 id="功能">功能</h1>
+<ol>
+<li>查看进程的父子关系；</li>
+<li>可直接结束指定进程；</li>
+<li>查看进程实时加载情况；（dll是否注入）</li>
+<li>查看进程内句柄；</li>
+<li>查看进程的相关属性（路径，位数，版本等）</li>
+<li>查看进程的资源占用情况；</li>
+<li>查找某个windows窗口进程；</li>
+</ol>
+<h1 id="下载">下载</h1>
+<p>官方下载链接：https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer</p>
+<p>微云下载链接：https://share.weiyun.com/sYxNzbGS</p>
+<h1 id="安装">安装</h1>
+<p>解压文件后，就可直接运行 Procexp.exe 文件。<br>
+建议将此文件放到C盘或者D盘文件夹内，避免在桌面被误删除</p>
+<h1 id="使用">使用</h1>
+<ol>
+<li>替换Windows自带的进程管理器：
+<ul>
+<li>点击【选型】-【替换任务管理器】即可，建议设置为【随系统启动】。</li>
+</ul>
+</li>
+<li>查找对应窗口进程：
+<ul>
+<li>打开Procexp进程管理器</li>
+<li>使用鼠标左键，将【查找窗口进程】这个图标拖到对应弹窗上；</li>
+<li>鼠标右键选中对应进程，查看属性，找到其具体是由那个文件或软件造成的；</li>
+<li>关闭进程，删除对应文件夹或者卸载对应软件即可。</li>
+</ul>
+</li>
+</ol>
+<p><mark>实操演示，因电脑上无广告弹窗，这里直接以浏览器作为演示。</mark><br>
+<img src="https://sadkeanu-1300372624.cos.ap-chengdu.myqcloud.com/%E6%9F%A5%E7%9C%8B%E5%BC%B9%E7%AA%97%E8%B7%AF%E5%BE%84.gif" alt="演示" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[透视裁剪工具-透视矫正]]></title>
         <id>https://Mrshu1991.github.io/post/tou-shi-cai-jian-gong-ju-tou-shi-jiao-zheng/</id>
@@ -353,59 +398,6 @@
 <li>无论企业规模如何，都应遵守劳动法和其他相关条例，避免因违规操作给企业本身带来更大的损失。</li>
 <li>如果只是临时雇佣的，或者以完成某项任务所雇佣的劳务关系人员，建议至少要购买工伤保险以及其他商业险。</li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[工伤“六问”解答]]></title>
-        <id>https://Mrshu1991.github.io/post/gong-shang-liu-wen-jie-da/</id>
-        <link href="https://Mrshu1991.github.io/post/gong-shang-liu-wen-jie-da/">
-        </link>
-        <updated>2020-07-27T03:22:19.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>上下班路上受伤算工伤吗？</p>
-</blockquote>
-<blockquote>
-<p>工伤伤情稳定后，就可以享受一次性伤残补助金吗？</p>
-</blockquote>
-<blockquote>
-<p>工伤期间只能领最低工资吗？</p>
-</blockquote>
-<p>……</p>
-<p>对于工伤的这些问题，网上有着诸多的解答，其中不乏误导性的错误解析。</p>
-<p>7月23日人社部联合中国互联网联合辟谣平台做出如下解释。</p>
-<h1 id="1-上下班路上受伤算工伤吗"><strong>1. 上下班路上受伤算工伤吗？</strong></h1>
-<p>不一定，要根据实际情况而定。根据《工伤保险条例》第十四条第六款规定，<strong>在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的，可以被认定为工伤。</strong></p>
-<p>也就是说，需要同时满足以下三个条件，才能算工伤：</p>
-<ul>
-<li>
-<p>需要在合理时间、合理路线的“上下班途中”；</p>
-</li>
-<li>
-<p>伤害是由“交通事故或者城市轨道交通、客运轮渡、火车事故”所造成；</p>
-</li>
-<li>
-<p>事故必须是“非本人主要责任”。</p>
-</li>
-</ul>
-<p>如果在上下班路上受伤满足上述三个条件，则可以认定为工伤，反之则无法认定为工伤。</p>
-<hr>
-<h1 id="2-工伤伤情稳定后就可以享受一次性伤残补助金吗"><strong>2. 工伤伤情稳定后就可以享受一次性伤残补助金吗？</strong></h1>
-<p>不是。职工发生工伤、经工伤医疗伤情稳定并进行劳动能力鉴定后，按伤残等级享受一次性伤残补助金等工伤保险待遇。</p>
-<p>所以，伤情稳定后，还需进行劳动能力鉴定才能视情况领取一次性伤残补助金。</p>
-<hr>
-<h1 id="3-非全日制用工可以不缴纳工伤保险吗"><strong>3. 非全日制用工可以不缴纳工伤保险吗？</strong></h1>
-<p>不可以。按照原劳动和社会保障部发布的《关于非全日制用工若干问题的意见》第十二条规定，<strong>用人单位应当按照国家有关规定为建立劳动关系的非全日制劳动者缴纳工伤保险费</strong>。从事非全日制工作的劳动者发生工伤，依法享受工伤待遇。</p>
-<hr>
-<h1 id="4-工伤期间只能领最低工资吗"><strong>4. 工伤期间只能领最低工资吗？</strong></h1>
-<p>不是。按照《工伤保险条例》第三十三条第一款规定，<strong>职工因工作遭受事故伤害或者患职业病需要暂停工作接受工伤医疗的，在停工留薪期内，原工资福利待遇不变，由所在单位按月支付</strong>。</p>
-<hr>
-<h1 id="5-退休前发生工伤退休时仍在停工留薪期是否就无法享受工伤待遇"><strong>5. 退休前发生工伤，退休时仍在停工留薪期是否就无法享受工伤待遇？</strong></h1>
-<p>不是。退休前发生工伤，按照《工伤保险条例》，可以依法进行工伤医疗，待伤情稳定并进行劳动能力鉴定后，按鉴定的伤残等级享受工伤保险待遇。</p>
-<p>退休前在停工留薪期内的，原工资福利待遇不变，由所在单位按月支付。退休后在停工留薪期内的，依法享受基本养老保险待遇；停工留薪期后，如经鉴定后伤残等级是1-4级且基本养老保险待遇低于伤残津贴的，由工伤保险基金补足差额。</p>
-<hr>
-<h1 id="6-未参加工伤保险的职工因工受伤是否就没有保障了"><strong>6. 未参加工伤保险的职工因工受伤是否就没有保障了？</strong></h1>
-<p>不是。未参加工伤保险的职工因工受伤，仍可享受工伤待遇。《工伤保险条例》第六十二条规定：<strong>依照本条例规定应当参加工伤保险而未参加工伤保险的用人单位职工发生工伤的，由该用人单位按照本条例规定的工伤保险待遇项目和标准支付费用</strong>。</p>
-<p>未参加工伤保险的职工因工受伤后，由职工或者其近亲属、工会组织在事故伤害发生之日起1年内向用人单位所在地统筹地区社会保险行政部门提出工伤认定申请，但发生工伤后的相关费用由该用人单位按照本条例规定的工伤保险待遇项目和标准支付费用。</p>
 ]]></content>
     </entry>
 </feed>
